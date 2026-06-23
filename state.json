@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-06-23T16:35:10.650976Z",
+  "last_run_utc": "2026-06-23T23:17:47.145130Z",
   "vehicles": {
     "ROG-101": {
       "notes": "Must run everyday. Special request.",
@@ -38,8 +38,8 @@
       "status": "Out of Service"
     },
     "ROG-110": {
-      "notes": "VBUILD-16065",
-      "status": "Verification"
+      "notes": "",
+      "status": "Active"
     },
     "ROG-111": {
       "notes": "",
@@ -106,12 +106,12 @@
       "status": "Active"
     },
     "ROG-127": {
-      "notes": "back up oasis - ready | front_center camera v4l2 issues [VBUILD-16022]",
-      "status": "Calibration"
+      "notes": "back up oasis - ready",
+      "status": "Active"
     },
     "ROG-128": {
-      "notes": "oasis | steering buttons inop + rough idle VSTAB-9040",
-      "status": "Calibration"
+      "notes": "oasis | ",
+      "status": "Active"
     },
     "ROG-129": {
       "notes": "YOCTO Vehicle",
@@ -122,8 +122,8 @@
       "status": "Active"
     },
     "ROG-131": {
-      "notes": "door camera bracket testing ETC 6/24 VBUILD-16038 & front camera remount VSTAB-9331",
-      "status": "Calibration"
+      "notes": "",
+      "status": "Active"
     },
     "ROG-132": {
       "notes": "oasis",
@@ -194,7 +194,7 @@
       "status": "Active"
     },
     "ROG-149": {
-      "notes": "Assign daily. Collect 1hr of data in the morning and upload. Regular schedule afterwards.",
+      "notes": "",
       "status": "Active"
     },
     "ROG-201": {
@@ -202,8 +202,8 @@
       "status": "Build"
     },
     "ROG-202": {
-      "notes": "VSTAB-9376",
-      "status": "Out of Service"
+      "notes": "",
+      "status": "Active"
     },
     "ROG-203": {
       "notes": "Gen2 new build",
@@ -238,8 +238,8 @@
       "status": "Build"
     },
     "ROG-211": {
-      "notes": "Gen2 new build",
-      "status": "Calibration"
+      "notes": "",
+      "status": "Active"
     },
     "ROG-212": {
       "notes": "Gen2 new build",
