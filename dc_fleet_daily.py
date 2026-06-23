@@ -160,11 +160,15 @@ def build_changes(prev, curr):
 
 
 def cell(text):
-    """Render a cell value: HTML-escape, then linkify Jira refs."""
+    """Render a cell value wrapped in <p>: HTML-escape, linkify, then paragraph-wrap.
+
+    Wrapping in <p> prevents Confluence's storage parser from splitting on literal `|`
+    characters as if they were wiki-format table delimiters.
+    """
     if not text:
-        return ""
+        return "<p></p>"
     escaped = html.escape(text, quote=False)
-    return linkify(escaped)
+    return f"<p>{linkify(escaped)}</p>"
 
 
 def linkify(escaped_text):
@@ -188,7 +192,7 @@ def table_with_operator(items):
             '<th>Location</th><th>Notes</th></tr>']
     for name, v in items:
         rows.append(
-            f'<tr><td>{name}</td>'
+            f'<tr><td><p>{name}</p></td>'
             f'<td>{cell(v["activity"])}</td>'
             f'<td>{cell(v["operator"] or "Unassigned")}</td>'
             f'<td>{cell(v["location"])}</td>'
@@ -203,7 +207,7 @@ def table_without_operator(items):
             '<tr><th>Vehicle</th><th>Activity</th><th>Location</th><th>Notes</th></tr>']
     for name, v in items:
         rows.append(
-            f'<tr><td>{name}</td>'
+            f'<tr><td><p>{name}</p></td>'
             f'<td>{cell(v["activity"])}</td>'
             f'<td>{cell(v["location"])}</td>'
             f'<td>{cell(v["notes"])}</td></tr>'
