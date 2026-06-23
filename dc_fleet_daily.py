@@ -15,11 +15,11 @@ Optional:
   DRY_RUN  (default: "0"; set to "1" to print body instead of publishing)
 """
 import base64
+import html
 import json
 import os
 import re
 import sys
-import time
 from collections import Counter
 from datetime import datetime
 from zoneinfo import ZoneInfo
@@ -28,6 +28,15 @@ import requests
 
 FLEETIO_BASE = "https://secure.fleetio.com/api/v1"
 SCRIPT_TZ = ZoneInfo("America/Los_Angeles")
+STATUS_EMOJI = {
+    "Active": "🟢",
+    "Verification": "🟡",
+    "Validation": "🟠",
+    "Calibration": "🩷",
+    "Build": "🟣",
+    "Out of Service": "🔴",
+    "Inactive": "🔘",
+}
 
 
 def env(name, default=None, required=True):
@@ -50,7 +59,6 @@ def fleetio_get(path, params=None):
 
 
 def fleetio_paginate(path, max_pages=80):
-    """Paginate /vehicles or /vehicle_assignments. Stops on rate-limit."""
     pages = []
     cursor = None
     for i in range(max_pages):
@@ -75,7 +83,6 @@ def load_vehicle_ids():
 
 
 def pull_fleetio_state():
-    """Returns {ROG-NNN: {status, activity, location, notes, operator, id}}."""
     dc_ids = load_vehicle_ids()
     veh_pages, _ = fleetio_paginate("/vehicles", max_pages=10)
     vehicles = {}
@@ -124,7 +131,6 @@ def load_prev_state():
 
 
 def save_state(vehicles):
-    """Persists only {status, notes} per vehicle — no operator names."""
     path = env("STATE_PATH", "state.json", required=False)
     sanitized = {
         name: {"status": v["status"], "notes": v["notes"]}
@@ -142,30 +148,10 @@ def save_state(vehicles):
         )
 
 
-def linkify_tickets(text):
-    """Wrap PROJ-NNN refs in markdown links to Atlassian."""
-    domain = env("ATLASSIAN_DOMAIN")
-    projects = env("JIRA_PROJECTS", "VSTAB,VBUILD,VCO,AVP", required=False).split(",")
-    if not text:
-        return text
-    pattern = re.compile(rf"\b({'|'.join(projects)})-(\d+)\b")
-    return pattern.sub(rf"[\1-\2](https://{domain}/browse/\1-\2)", text)
-
-
-def escape_pipes(text):
-    if not text:
-        return ""
-    return text.replace("|", "\\|")
-
-
 def build_changes(prev, curr):
-    """Returns dict of: status_transitions, notes_changes, operator_change_count."""
-    out = {"status": [], "notes": [], "ops": 0}
-    prev_names = set(prev.keys())
-    curr_names = set(curr.keys())
-    for name in sorted(curr_names & prev_names, key=lambda n: int(n.split("-")[1])):
-        p = prev[name]
-        c = curr[name]
+    out = {"status": [], "notes": []}
+    for name in sorted(set(curr) & set(prev), key=lambda n: int(n.split("-")[1])):
+        p, c = prev[name], curr[name]
         if p["status"] != c["status"]:
             out["status"].append((name, p["status"], c["status"]))
         if (p.get("notes") or "").strip() != (c["notes"] or "").strip():
@@ -173,130 +159,147 @@ def build_changes(prev, curr):
     return out
 
 
-def format_active_table(vehicles):
-    actives = sorted(
-        [(n, v) for n, v in vehicles.items() if v["status"] == "Active"],
-        key=lambda kv: int(kv[0].split("-")[1]),
-    )
-    rows = ["| Vehicle | Activity | Operator | Location | Notes |", "| --- | --- | --- | --- | --- |"]
-    for name, v in actives:
-        rows.append(
-            f"| {name} | {v['activity']} | {v['operator'] or 'Unassigned'} | "
-            f"{v['location']} | {escape_pipes(linkify_tickets(v['notes']))} |"
-        )
-    return "\n".join(rows), len(actives), sum(1 for _, v in actives if v["operator"])
-
-
-def format_grouped_table(vehicles, status, include_operator=True):
-    items = sorted(
-        [(n, v) for n, v in vehicles.items() if v["status"] == status],
-        key=lambda kv: int(kv[0].split("-")[1]),
-    )
-    if not items:
+def cell(text):
+    """Render a cell value: HTML-escape, then linkify Jira refs."""
+    if not text:
         return ""
-    if include_operator:
-        rows = [
-            "| Vehicle | Activity | Operator | Location | Notes |",
-            "| --- | --- | --- | --- | --- |",
-        ]
-        for name, v in items:
-            rows.append(
-                f"| {name} | {v['activity']} | {v['operator'] or 'Unassigned'} | "
-                f"{v['location']} | {escape_pipes(linkify_tickets(v['notes']))} |"
-            )
-    else:
-        rows = ["| Vehicle | Activity | Location | Notes |", "| --- | --- | --- | --- |"]
-        for name, v in items:
-            rows.append(
-                f"| {name} | {v['activity']} | {v['location']} | "
-                f"{escape_pipes(linkify_tickets(v['notes']))} |"
-            )
+    escaped = html.escape(text, quote=False)
+    return linkify(escaped)
+
+
+def linkify(escaped_text):
+    """Wrap PROJ-NNN refs in <a> tags. Input must already be HTML-escaped."""
+    domain = env("ATLASSIAN_DOMAIN")
+    projects = env("JIRA_PROJECTS", "VSTAB,VBUILD,VCO,AVP", required=False).split(",")
+    pattern = re.compile(rf"\b({'|'.join(projects)})-(\d+)\b")
+    return pattern.sub(
+        rf'<a href="https://{domain}/browse/\1-\2">\1-\2</a>',
+        escaped_text,
+    )
+
+
+def vehicle_sort_key(name):
+    return int(name.split("-")[1])
+
+
+def table_with_operator(items):
+    rows = ['<table><tbody>',
+            '<tr><th>Vehicle</th><th>Activity</th><th>Operator</th>'
+            '<th>Location</th><th>Notes</th></tr>']
+    for name, v in items:
+        rows.append(
+            f'<tr><td>{name}</td>'
+            f'<td>{cell(v["activity"])}</td>'
+            f'<td>{cell(v["operator"] or "Unassigned")}</td>'
+            f'<td>{cell(v["location"])}</td>'
+            f'<td>{cell(v["notes"])}</td></tr>'
+        )
+    rows.append('</tbody></table>')
     return "\n".join(rows)
 
 
-STATUS_EMOJI = {
-    "Active": "🟢",
-    "Verification": "🟡",
-    "Validation": "🟠",
-    "Calibration": "🩷",
-    "Build": "🟣",
-    "Out of Service": "🔴",
-    "Inactive": "🔘",
-}
+def table_without_operator(items):
+    rows = ['<table><tbody>',
+            '<tr><th>Vehicle</th><th>Activity</th><th>Location</th><th>Notes</th></tr>']
+    for name, v in items:
+        rows.append(
+            f'<tr><td>{name}</td>'
+            f'<td>{cell(v["activity"])}</td>'
+            f'<td>{cell(v["location"])}</td>'
+            f'<td>{cell(v["notes"])}</td></tr>'
+        )
+    rows.append('</tbody></table>')
+    return "\n".join(rows)
+
+
+def items_for(vehicles, status):
+    return sorted(
+        [(n, v) for n, v in vehicles.items() if v["status"] == status],
+        key=lambda kv: vehicle_sort_key(kv[0]),
+    )
 
 
 def build_body(vehicles, changes, rate_limited):
     counts = Counter(v["status"] for v in vehicles.values())
-    summary_rows = [
-        "| Status | Count |",
-        "| --- | --- |",
-    ]
-    for status in ["Active", "Verification", "Validation", "Calibration", "Build", "Out of Service", "Inactive"]:
-        emoji = STATUS_EMOJI.get(status, "")
-        summary_rows.append(f"| {emoji} {status} | {counts.get(status, 0)} |")
-    summary_rows.append(f"| **Total** | **{len(vehicles)}** |")
 
-    active_table, active_total, active_assigned = format_active_table(vehicles)
+    parts = ['<h2>Summary</h2>',
+             '<table><tbody>',
+             '<tr><th>Status</th><th>Count</th></tr>']
+    for status in ["Active", "Verification", "Validation", "Calibration",
+                   "Build", "Out of Service", "Inactive"]:
+        parts.append(
+            f'<tr><td>{STATUS_EMOJI.get(status, "")} {status}</td>'
+            f'<td>{counts.get(status, 0)}</td></tr>'
+        )
+    parts.append(
+        f'<tr><td><strong>Total</strong></td>'
+        f'<td><strong>{len(vehicles)}</strong></td></tr>'
+    )
+    parts.append('</tbody></table>')
+
+    actives = items_for(vehicles, "Active")
+    active_total = len(actives)
+    active_assigned = sum(1 for _, v in actives if v["operator"])
     active_unassigned = active_total - active_assigned
     pct_a = round(100 * active_assigned / active_total) if active_total else 0
     pct_u = 100 - pct_a if active_total else 0
+    parts.append(
+        f'<h2>🟢 Active ({active_total}) — {active_assigned} assigned ({pct_a}%) '
+        f'| {active_unassigned} unassigned ({pct_u}%)</h2>'
+    )
+    parts.append(table_with_operator(actives))
 
-    parts = [
-        "## Summary",
-        "",
-        "\n".join(summary_rows),
-        "",
-        f"## 🟢 Active ({active_total}) — {active_assigned} assigned ({pct_a}%) | {active_unassigned} unassigned ({pct_u}%)",
-        "",
-        active_table,
-        "",
-    ]
-
-    for status in ["Verification", "Validation", "Calibration"]:
-        if counts.get(status):
-            tbl = format_grouped_table(vehicles, status, include_operator=(status == "Calibration"))
-            parts += [f"## {STATUS_EMOJI[status]} {status} ({counts[status]})", "", tbl, ""]
+    for status, include_op in [("Verification", False),
+                               ("Validation", False),
+                               ("Calibration", True)]:
+        items = items_for(vehicles, status)
+        if items:
+            parts.append(f'<h2>{STATUS_EMOJI[status]} {status} ({len(items)})</h2>')
+            parts.append(table_with_operator(items) if include_op
+                         else table_without_operator(items))
 
     if counts.get("Build"):
-        parts += [
-            f"## 🟣 Build ({counts['Build']})",
-            "",
-            format_grouped_table(vehicles, "Build", include_operator=False),
-            "",
-        ]
+        items = items_for(vehicles, "Build")
+        parts.append(f'<h2>🟣 Build ({len(items)})</h2>')
+        parts.append(table_without_operator(items))
 
     if counts.get("Out of Service"):
-        parts += [
-            f"## 🔴 Out of Service ({counts['Out of Service']})",
-            "",
-            format_grouped_table(vehicles, "Out of Service", include_operator=True),
-            "",
-        ]
+        items = items_for(vehicles, "Out of Service")
+        parts.append(f'<h2>🔴 Out of Service ({len(items)})</h2>')
+        parts.append(table_with_operator(items))
 
     if counts.get("Inactive"):
-        parts += [
-            f"## 🔘 Inactive ({counts['Inactive']})",
-            "",
-            format_grouped_table(vehicles, "Inactive", include_operator=False),
-            "",
-        ]
+        items = items_for(vehicles, "Inactive")
+        parts.append(f'<h2>🔘 Inactive ({len(items)})</h2>')
+        parts.append(table_without_operator(items))
 
-    parts.append("## Latest Changes\n")
+    parts.append('<h2>Latest Changes</h2>')
+    parts.append('<ul>')
     if not changes["status"] and not changes["notes"]:
-        parts.append("* No status transitions, no ticket/notes changes")
+        parts.append('<li>No status transitions, no ticket/notes changes</li>')
     else:
         for name, old, new in changes["status"]:
-            o_emoji = STATUS_EMOJI.get(old, "")
-            n_emoji = STATUS_EMOJI.get(new, "")
-            parts.append(f"* **{name}**: {o_emoji} {old} → {n_emoji} {new}")
+            parts.append(
+                f'<li><strong>{name}</strong>: '
+                f'{STATUS_EMOJI.get(old, "")} {html.escape(old)} → '
+                f'{STATUS_EMOJI.get(new, "")} {html.escape(new)}</li>'
+            )
         for name, old, new in changes["notes"]:
-            new_linked = escape_pipes(linkify_tickets(new))
-            parts.append(f"* **{name}** notes: `{old or '(empty)'}` → `{new_linked}`")
+            old_disp = html.escape(old or "(empty)", quote=False)
+            new_disp = linkify(html.escape(new, quote=False))
+            parts.append(
+                f'<li><strong>{name}</strong> notes: '
+                f'<code>{old_disp}</code> → <code>{new_disp}</code></li>'
+            )
     if rate_limited:
-        parts.append("* Fleetio assignment endpoint rate-limited — used driver-field fallback")
+        parts.append(
+            '<li>Fleetio assignment endpoint rate-limited — used driver-field fallback</li>'
+        )
     parts.append(
-        f"* Generated automatically {datetime.now(SCRIPT_TZ).strftime('%Y-%m-%d %H:%M %Z')}"
+        f'<li>Generated automatically '
+        f'{html.escape(datetime.now(SCRIPT_TZ).strftime("%Y-%m-%d %H:%M %Z"))}</li>'
     )
+    parts.append('</ul>')
 
     return "\n".join(parts)
 
@@ -311,45 +314,21 @@ def get_current_page():
     r = requests.get(
         url,
         headers={"Authorization": confluence_auth(), "Accept": "application/json"},
-        params={"body-format": "storage"},
         timeout=30,
     )
     r.raise_for_status()
     return r.json()
 
 
-def update_page(body_markdown, title, version_number, version_message):
-    """v2 API accepts storage representation. Convert markdown to storage via Atlassian's conversion endpoint."""
+def update_page(body_storage, title, version_number, version_message):
     domain = env("ATLASSIAN_DOMAIN")
     page_id = env("CONFLUENCE_PAGE_ID")
-
-    convert_url = f"https://{domain}/wiki/api/v2/pages/{page_id}/content/convert"
-    conv = requests.post(
-        convert_url,
-        headers={
-            "Authorization": confluence_auth(),
-            "Content-Type": "application/json",
-            "Accept": "application/json",
-        },
-        json={
-            "value": body_markdown,
-            "sourceContentFormat": "markdown",
-            "targetContentFormat": "storage",
-        },
-        timeout=30,
-    )
-    if conv.status_code == 404:
-        storage_value = markdown_to_storage_fallback(body_markdown)
-    else:
-        conv.raise_for_status()
-        storage_value = conv.json().get("value", "")
-
     url = f"https://{domain}/wiki/api/v2/pages/{page_id}"
     payload = {
         "id": page_id,
         "status": "current",
         "title": title,
-        "body": {"representation": "storage", "value": storage_value},
+        "body": {"representation": "storage", "value": body_storage},
         "version": {"number": version_number, "message": version_message},
     }
     r = requests.put(
@@ -366,57 +345,11 @@ def update_page(body_markdown, title, version_number, version_message):
     return r.json()
 
 
-def markdown_to_storage_fallback(md):
-    """Minimal markdown→XHTML for tables/headings/links. Used only if conversion endpoint unavailable."""
-    import html
-    out = []
-    in_table = False
-    in_header = False
-    for raw_line in md.split("\n"):
-        line = raw_line.rstrip()
-        if line.startswith("## "):
-            if in_table:
-                out.append("</tbody></table>")
-                in_table = False
-            out.append(f"<h2>{html.escape(line[3:])}</h2>")
-            continue
-        if line.startswith("| ") and "|" in line[2:]:
-            cells = [c.strip() for c in line.strip("|").split("|")]
-            if all(set(c) <= set("- ") for c in cells):
-                in_header = True
-                continue
-            if not in_table:
-                out.append("<table><tbody>")
-                in_table = True
-            tag = "th" if in_header else "td"
-            if in_header:
-                in_header = False
-            cell_html = "".join(f"<{tag}>{linkify_inline(c)}</{tag}>" for c in cells)
-            out.append(f"<tr>{cell_html}</tr>")
-            continue
-        if in_table:
-            out.append("</tbody></table>")
-            in_table = False
-        if line.startswith("* "):
-            out.append(f"<p>{linkify_inline(line[2:])}</p>")
-        elif line:
-            out.append(f"<p>{linkify_inline(line)}</p>")
-    if in_table:
-        out.append("</tbody></table>")
-    return "\n".join(out)
-
-
-def linkify_inline(text):
-    """Convert markdown [label](url) and **bold** in a cell."""
-    text = re.sub(r"\*\*([^*]+)\*\*", r"<strong>\1</strong>", text)
-    text = re.sub(r"\[([^\]]+)\]\(([^)]+)\)", r'<a href="\2">\1</a>', text)
-    return text.replace("\\|", "|")
-
-
 def main():
     print("Pulling Fleetio data...", file=sys.stderr)
     vehicles, disagreements, rate_limited = pull_fleetio_state()
-    print(f"  {len(vehicles)} vehicles, {len(disagreements)} disagreements", file=sys.stderr)
+    print(f"  {len(vehicles)} vehicles, {len(disagreements)} disagreements",
+          file=sys.stderr)
 
     prev_vehicles = load_prev_state()
     changes = build_changes(prev_vehicles, vehicles)
