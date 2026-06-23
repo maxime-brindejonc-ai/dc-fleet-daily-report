@@ -1,0 +1,261 @@
+{
+  "last_run_utc": "2026-06-23T16:35:10.650976Z",
+  "vehicles": {
+    "ROG-101": {
+      "notes": "Must run everyday. Special request.",
+      "status": "Active"
+    },
+    "ROG-102": {
+      "notes": "",
+      "status": "Active"
+    },
+    "ROG-103": {
+      "notes": "oasis",
+      "status": "Active"
+    },
+    "ROG-104": {
+      "notes": "",
+      "status": "Active"
+    },
+    "ROG-105": {
+      "notes": "Mechanical Issue [VSTAB-976]",
+      "status": "Inactive"
+    },
+    "ROG-106": {
+      "notes": "YOCTO Vehicle ",
+      "status": "Active"
+    },
+    "ROG-107": {
+      "notes": "oasis ",
+      "status": "Active"
+    },
+    "ROG-108": {
+      "notes": "",
+      "status": "Active"
+    },
+    "ROG-109": {
+      "notes": "Alex M. static testing (time lapse) - ETC next week",
+      "status": "Out of Service"
+    },
+    "ROG-110": {
+      "notes": "VBUILD-16065",
+      "status": "Verification"
+    },
+    "ROG-111": {
+      "notes": "",
+      "status": "Active"
+    },
+    "ROG-112": {
+      "notes": "",
+      "status": "Active"
+    },
+    "ROG-113": {
+      "notes": "Robotaxi Mule",
+      "status": "Active"
+    },
+    "ROG-114": {
+      "notes": "",
+      "status": "Active"
+    },
+    "ROG-115": {
+      "notes": "In transit do not assign to operator",
+      "status": "Active"
+    },
+    "ROG-116": {
+      "notes": "YOCTO Vehicle | FC/FCN offset right | 8V30FPS change [VCO-3423, 3424]",
+      "status": "Out of Service"
+    },
+    "ROG-117": {
+      "notes": " collision VSTAB-6216 - at dealer for service",
+      "status": "Inactive"
+    },
+    "ROG-118": {
+      "notes": "",
+      "status": "Active"
+    },
+    "ROG-119": {
+      "notes": "",
+      "status": "Active"
+    },
+    "ROG-120": {
+      "notes": "",
+      "status": "Active"
+    },
+    "ROG-121": {
+      "notes": "",
+      "status": "Active"
+    },
+    "ROG-122": {
+      "notes": "Master Testing Vehicle | rough idle VSTAB-9141",
+      "status": "Out of Service"
+    },
+    "ROG-123": {
+      "notes": "",
+      "status": "Active"
+    },
+    "ROG-124": {
+      "notes": "Assign daily. Collect 1hr of data in the morning and upload. Regular schedule afterwards.",
+      "status": "Active"
+    },
+    "ROG-125": {
+      "notes": "",
+      "status": "Active"
+    },
+    "ROG-126": {
+      "notes": "",
+      "status": "Active"
+    },
+    "ROG-127": {
+      "notes": "back up oasis - ready | front_center camera v4l2 issues [VBUILD-16022]",
+      "status": "Calibration"
+    },
+    "ROG-128": {
+      "notes": "oasis | steering buttons inop + rough idle VSTAB-9040",
+      "status": "Calibration"
+    },
+    "ROG-129": {
+      "notes": "YOCTO Vehicle",
+      "status": "Active"
+    },
+    "ROG-130": {
+      "notes": "",
+      "status": "Active"
+    },
+    "ROG-131": {
+      "notes": "door camera bracket testing ETC 6/24 VBUILD-16038 & front camera remount VSTAB-9331",
+      "status": "Calibration"
+    },
+    "ROG-132": {
+      "notes": "oasis",
+      "status": "Active"
+    },
+    "ROG-133": {
+      "notes": "Assign daily. Collect 1hr of data in the morning and upload. Regular schedule afterwards.",
+      "status": "Active"
+    },
+    "ROG-134": {
+      "notes": "",
+      "status": "Active"
+    },
+    "ROG-135": {
+      "notes": "Michigan ",
+      "status": "Active"
+    },
+    "ROG-136": {
+      "notes": "back up oasis",
+      "status": "Active"
+    },
+    "ROG-137": {
+      "notes": "Robotaxi Mule | VSTAB-9146 - Camera issue - Vincent Saw",
+      "status": "Active"
+    },
+    "ROG-138": {
+      "notes": "oasis",
+      "status": "Active"
+    },
+    "ROG-139": {
+      "notes": "",
+      "status": "Active"
+    },
+    "ROG-140": {
+      "notes": "",
+      "status": "Active"
+    },
+    "ROG-141": {
+      "notes": "oasis - @dealer work",
+      "status": "Out of Service"
+    },
+    "ROG-142": {
+      "notes": "back up oasis | VSTAB-9038 - sun visor",
+      "status": "Active"
+    },
+    "ROG-143": {
+      "notes": "oasis",
+      "status": "Active"
+    },
+    "ROG-144": {
+      "notes": "oasis",
+      "status": "Active"
+    },
+    "ROG-145": {
+      "notes": "oasis",
+      "status": "Active"
+    },
+    "ROG-146": {
+      "notes": "",
+      "status": "Active"
+    },
+    "ROG-147": {
+      "notes": "oasis",
+      "status": "Active"
+    },
+    "ROG-148": {
+      "notes": "oasis",
+      "status": "Active"
+    },
+    "ROG-149": {
+      "notes": "Assign daily. Collect 1hr of data in the morning and upload. Regular schedule afterwards.",
+      "status": "Active"
+    },
+    "ROG-201": {
+      "notes": "Yocto vehicle with Front LGIT cameras | AVP-52942 & VBUILD-15923",
+      "status": "Build"
+    },
+    "ROG-202": {
+      "notes": "VSTAB-9376",
+      "status": "Out of Service"
+    },
+    "ROG-203": {
+      "notes": "Gen2 new build",
+      "status": "Build"
+    },
+    "ROG-204": {
+      "notes": "vehicle OS  -- special project/ will not be DC fleet",
+      "status": "Inactive"
+    },
+    "ROG-205": {
+      "notes": "Gen2 new build",
+      "status": "Build"
+    },
+    "ROG-206": {
+      "notes": "Gen2 new build",
+      "status": "Build"
+    },
+    "ROG-207": {
+      "notes": "Gen2 new build",
+      "status": "Build"
+    },
+    "ROG-208": {
+      "notes": "Gen2 new build",
+      "status": "Build"
+    },
+    "ROG-209": {
+      "notes": "Gen2 new build",
+      "status": "Calibration"
+    },
+    "ROG-210": {
+      "notes": "Gen2 new build",
+      "status": "Build"
+    },
+    "ROG-211": {
+      "notes": "Gen2 new build",
+      "status": "Calibration"
+    },
+    "ROG-212": {
+      "notes": "Gen2 new build",
+      "status": "Build"
+    },
+    "ROG-213": {
+      "notes": "Gen2 new build",
+      "status": "Build"
+    },
+    "ROG-214": {
+      "notes": "Gen2 new build",
+      "status": "Build"
+    },
+    "ROG-215": {
+      "notes": "Gen2 new build",
+      "status": "Build"
+    }
+  }
+}
