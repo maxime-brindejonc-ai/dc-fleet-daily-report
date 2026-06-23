@@ -1,0 +1,49 @@
+name: DC Fleet Daily
+
+on:
+  schedule:
+    # 15:00 UTC = 8am PDT (7am PST). 22:00 UTC = 3pm PDT (2pm PST).
+    # Re-tune after DST ends if you want 8am/3pm strictly local.
+    - cron: '7 15 * * *'
+    - cron: '7 22 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write   # so the job can commit state.json back
+
+concurrency:
+  group: dc-fleet-daily
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - run: pip install -r requirements.txt
+
+      - name: Run report
+        env:
+          FLEETIO_API_TOKEN: ${{ secrets.FLEETIO_API_TOKEN }}
+          FLEETIO_ACCOUNT_TOKEN: ${{ secrets.FLEETIO_ACCOUNT_TOKEN }}
+          ATLASSIAN_EMAIL: ${{ secrets.ATLASSIAN_EMAIL }}
+          ATLASSIAN_API_TOKEN: ${{ secrets.ATLASSIAN_API_TOKEN }}
+          ATLASSIAN_DOMAIN: ${{ secrets.ATLASSIAN_DOMAIN }}
+          CONFLUENCE_PAGE_ID: ${{ secrets.CONFLUENCE_PAGE_ID }}
+          JIRA_PROJECTS: VSTAB,VBUILD,VCO,AVP
+        run: python dc_fleet_daily.py
+
+      - name: Commit state.json if changed
+        run: |
+          if [ -n "$(git status --porcelain state.json)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add state.json
+            git commit -m "auto: update state.json [skip ci]"
+            git push
+          fi
