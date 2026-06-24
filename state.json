@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-06-24T17:12:37.105531Z",
+  "last_run_utc": "2026-06-24T23:17:29.565325Z",
   "vehicles": {
     "ROG-101": {
       "notes": "Must run everyday. Special request.",
@@ -90,11 +90,11 @@
       "status": "Out of Service"
     },
     "ROG-123": {
-      "notes": "",
+      "notes": "Master branch test vehicle | Assign daily.",
       "status": "Active"
     },
     "ROG-124": {
-      "notes": "Assign daily. Collect 1hr of data in the morning and upload. Regular schedule afterwards.",
+      "notes": "",
       "status": "Active"
     },
     "ROG-125": {
@@ -134,7 +134,7 @@
       "status": "Active"
     },
     "ROG-134": {
-      "notes": "  VSTAB-9405",
+      "notes": "rear left tire  VSTAB-9405",
       "status": "Out of Service"
     },
     "ROG-135": {
@@ -194,7 +194,7 @@
       "status": "Active"
     },
     "ROG-149": {
-      "notes": "",
+      "notes": "oasis",
       "status": "Active"
     },
     "ROG-201": {
