@@ -2,10 +2,19 @@ name: DC Fleet Daily
 
 on:
   schedule:
-    # 15:00 UTC = 8am PDT (7am PST). 22:00 UTC = 3pm PDT (2pm PST).
-    # Re-tune after DST ends if you want 8am/3pm strictly local.
-    - cron: '7 15 * * *'
-    - cron: '7 22 * * *'
+    # Three redundant fires per target slot, ~30 min apart.
+    # Skip-publish dedupes — only one actually writes per slot.
+    # GitHub Actions schedules are best-effort and routinely drop runs;
+    # redundancy is the cheapest mitigation.
+    #
+    # Morning slot (target 8am PDT / 15:00 UTC):
+    - cron: '7 15 * * *'    # ~8:07am PDT
+    - cron: '37 15 * * *'   # ~8:37am PDT
+    - cron: '7 16 * * *'    # ~9:07am PDT
+    # Afternoon slot (target 3pm PDT / 22:00 UTC):
+    - cron: '7 22 * * *'    # ~3:07pm PDT
+    - cron: '37 22 * * *'   # ~3:37pm PDT
+    - cron: '7 23 * * *'    # ~4:07pm PDT
   workflow_dispatch: {}
 
 permissions:
