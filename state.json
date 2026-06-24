@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-06-24T23:17:29.565325Z",
+  "last_run_utc": "2026-06-24T23:46:39.770344Z",
   "vehicles": {
     "ROG-101": {
       "notes": "Must run everyday. Special request.",
@@ -34,7 +34,7 @@
       "status": "Active"
     },
     "ROG-109": {
-      "notes": "Alex M. static testing (time lapse) - ETC next week",
+      "notes": "Alex M. static testing (time lapse) - will need to go to dealer ETC EOM",
       "status": "Out of Service"
     },
     "ROG-110": {
@@ -135,7 +135,7 @@
     },
     "ROG-134": {
       "notes": "rear left tire  VSTAB-9405",
-      "status": "Out of Service"
+      "status": "Active"
     },
     "ROG-135": {
       "notes": "Michigan ",
