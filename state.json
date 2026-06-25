@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-06-25T18:23:18.682819Z",
+  "last_run_utc": "2026-06-25T23:39:35.518279Z",
   "vehicles": {
     "ROG-101": {
       "notes": "Must run everyday. Special request.",
@@ -94,8 +94,8 @@
       "status": "Active"
     },
     "ROG-124": {
-      "notes": "",
-      "status": "Active"
+      "notes": "camera test Mabel",
+      "status": "Out of Service"
     },
     "ROG-125": {
       "notes": "",
@@ -146,8 +146,8 @@
       "status": "Active"
     },
     "ROG-137": {
-      "notes": "Robotaxi Mule | VSTAB-9146 - Camera issue - Vincent Saw",
-      "status": "Out of Service"
+      "notes": "Robotaxi Mule",
+      "status": "Active"
     },
     "ROG-138": {
       "notes": "oasis",
