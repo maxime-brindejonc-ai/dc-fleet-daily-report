@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-06-24T23:46:39.770344Z",
+  "last_run_utc": "2026-06-25T17:20:52.305218Z",
   "vehicles": {
     "ROG-101": {
       "notes": "Must run everyday. Special request.",
@@ -34,7 +34,7 @@
       "status": "Active"
     },
     "ROG-109": {
-      "notes": "Alex M. static testing (time lapse) - will need to go to dealer ETC EOM",
+      "notes": "Alex M. static testing (time lapse) - will need to go to dealer ETC EOM - VBUILD-16189",
       "status": "Out of Service"
     },
     "ROG-110": {
@@ -110,7 +110,7 @@
       "status": "Active"
     },
     "ROG-128": {
-      "notes": "oasis | ",
+      "notes": "oasis backup",
       "status": "Active"
     },
     "ROG-129": {
@@ -147,7 +147,7 @@
     },
     "ROG-137": {
       "notes": "Robotaxi Mule | VSTAB-9146 - Camera issue - Vincent Saw",
-      "status": "Active"
+      "status": "Out of Service"
     },
     "ROG-138": {
       "notes": "oasis",
