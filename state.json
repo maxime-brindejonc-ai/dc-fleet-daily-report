@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-06-26T17:06:00.576375Z",
+  "last_run_utc": "2026-06-26T18:01:48.994340Z",
   "vehicles": {
     "ROG-101": {
       "notes": "Must run everyday. Special request.",
@@ -39,7 +39,7 @@
     },
     "ROG-110": {
       "notes": "",
-      "status": "Calibration"
+      "status": "Active"
     },
     "ROG-111": {
       "notes": "",
@@ -70,8 +70,8 @@
       "status": "Inactive"
     },
     "ROG-118": {
-      "notes": "",
-      "status": "Active"
+      "notes": "camera test Mabel",
+      "status": "Out of Service"
     },
     "ROG-119": {
       "notes": "",
@@ -254,8 +254,8 @@
       "status": "Build"
     },
     "ROG-215": {
-      "notes": "Gen2 new build",
-      "status": "Calibration"
+      "notes": "",
+      "status": "Active"
     }
   }
 }
