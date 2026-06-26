@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-06-26T23:18:59.678552Z",
+  "last_run_utc": "2026-06-26T23:46:00.068609Z",
   "vehicles": {
     "ROG-101": {
       "notes": "Must run everyday. Special request.",
@@ -222,8 +222,8 @@
       "status": "Build"
     },
     "ROG-207": {
-      "notes": "Gen2 new build",
-      "status": "Calibration"
+      "notes": "",
+      "status": "Active"
     },
     "ROG-208": {
       "notes": "Gen2 new build",
