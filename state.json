@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-06-25T23:39:35.518279Z",
+  "last_run_utc": "2026-06-26T17:06:00.576375Z",
   "vehicles": {
     "ROG-101": {
       "notes": "Must run everyday. Special request.",
@@ -38,7 +38,7 @@
       "status": "Out of Service"
     },
     "ROG-110": {
-      "notes": "30fps flash [VCO-3425\\",
+      "notes": "",
       "status": "Calibration"
     },
     "ROG-111": {
@@ -87,7 +87,7 @@
     },
     "ROG-122": {
       "notes": "Master Testing Vehicle | rough idle VSTAB-9141",
-      "status": "Out of Service"
+      "status": "Calibration"
     },
     "ROG-123": {
       "notes": "Master branch test vehicle | Assign daily.",
@@ -238,8 +238,8 @@
       "status": "Build"
     },
     "ROG-211": {
-      "notes": "",
-      "status": "Active"
+      "notes": "steering wheel issue - VSTAB-9471 ",
+      "status": "Out of Service"
     },
     "ROG-212": {
       "notes": "Gen2 new build",
