@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-06-26T18:01:48.994340Z",
+  "last_run_utc": "2026-06-26T23:18:59.678552Z",
   "vehicles": {
     "ROG-101": {
       "notes": "Must run everyday. Special request.",
@@ -86,11 +86,11 @@
       "status": "Active"
     },
     "ROG-122": {
-      "notes": "Master Testing Vehicle | rough idle VSTAB-9141",
-      "status": "Calibration"
+      "notes": "Master branch test vehicle | Assign daily.",
+      "status": "Active"
     },
     "ROG-123": {
-      "notes": "Master branch test vehicle | Assign daily.",
+      "notes": "",
       "status": "Active"
     },
     "ROG-124": {
