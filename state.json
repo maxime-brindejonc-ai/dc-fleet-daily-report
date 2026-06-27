@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-06-26T23:46:00.068609Z",
+  "last_run_utc": "2026-06-27T16:14:41.295260Z",
   "vehicles": {
     "ROG-101": {
       "notes": "Must run everyday. Special request.",
@@ -94,8 +94,8 @@
       "status": "Active"
     },
     "ROG-124": {
-      "notes": "camera test Mabel",
-      "status": "Out of Service"
+      "notes": "camera test Mabel: Front camera shroud install. ",
+      "status": "Calibration"
     },
     "ROG-125": {
       "notes": "",
@@ -202,8 +202,8 @@
       "status": "Build"
     },
     "ROG-202": {
-      "notes": "",
-      "status": "Active"
+      "notes": "VSTAB-9498 no power to compute",
+      "status": "Out of Service"
     },
     "ROG-203": {
       "notes": "Gen2 new build",
