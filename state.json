@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-06-27T16:14:41.295260Z",
+  "last_run_utc": "2026-06-27T23:13:21.186887Z",
   "vehicles": {
     "ROG-101": {
       "notes": "Must run everyday. Special request.",
@@ -146,8 +146,8 @@
       "status": "Active"
     },
     "ROG-137": {
-      "notes": "Robotaxi Mule",
-      "status": "Active"
+      "notes": "Robotaxi Mule - [VSTAB-9505] - All Cameras Down",
+      "status": "Out of Service"
     },
     "ROG-138": {
       "notes": "oasis",
@@ -202,8 +202,8 @@
       "status": "Build"
     },
     "ROG-202": {
-      "notes": "VSTAB-9498 no power to compute",
-      "status": "Out of Service"
+      "notes": "",
+      "status": "Active"
     },
     "ROG-203": {
       "notes": "Gen2 new build",
