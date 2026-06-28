@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-06-27T23:13:21.186887Z",
+  "last_run_utc": "2026-06-28T16:20:56.028271Z",
   "vehicles": {
     "ROG-101": {
       "notes": "Must run everyday. Special request.",
@@ -51,7 +51,7 @@
     },
     "ROG-113": {
       "notes": "Robotaxi Mule",
-      "status": "Active"
+      "status": "Out of Service"
     },
     "ROG-114": {
       "notes": "",
@@ -178,8 +178,8 @@
       "status": "Active"
     },
     "ROG-145": {
-      "notes": "oasis",
-      "status": "Active"
+      "notes": "oasis, VSTAB-9511 brake lights out, engine knocking",
+      "status": "Out of Service"
     },
     "ROG-146": {
       "notes": "",
