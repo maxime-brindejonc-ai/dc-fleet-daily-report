@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-06-29T17:59:38.532199Z",
+  "last_run_utc": "2026-06-29T18:19:07.206594Z",
   "vehicles": {
     "ROG-101": {
       "notes": "Must run everyday. Special request.",
@@ -126,8 +126,8 @@
       "status": "Active"
     },
     "ROG-132": {
-      "notes": "oasis",
-      "status": "Active"
+      "notes": "oasis | front center camera rework",
+      "status": "Build"
     },
     "ROG-133": {
       "notes": "Assign daily. Collect 1hr of data in the morning and upload. Regular schedule afterwards.",
