@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-06-28T23:15:15.227085Z",
+  "last_run_utc": "2026-06-29T17:45:50.635277Z",
   "vehicles": {
     "ROG-101": {
       "notes": "Must run everyday. Special request.",
@@ -10,8 +10,8 @@
       "status": "Active"
     },
     "ROG-103": {
-      "notes": "oasis",
-      "status": "Active"
+      "notes": "oasis | front center camera rework",
+      "status": "Build"
     },
     "ROG-104": {
       "notes": "",
@@ -26,8 +26,8 @@
       "status": "Active"
     },
     "ROG-107": {
-      "notes": "oasis ",
-      "status": "Active"
+      "notes": "oasis | front center camera rework",
+      "status": "Build"
     },
     "ROG-108": {
       "notes": "",
@@ -50,7 +50,7 @@
       "status": "Active"
     },
     "ROG-113": {
-      "notes": "Robotaxi Mule",
+      "notes": "Robotaxi Mule - all cameras down VSTAB-9505",
       "status": "Out of Service"
     },
     "ROG-114": {
@@ -166,20 +166,20 @@
       "status": "Out of Service"
     },
     "ROG-142": {
-      "notes": "back up oasis | VSTAB-9038 - sun visor",
-      "status": "Active"
+      "notes": "back up oasis | front center camera rework",
+      "status": "Build"
     },
     "ROG-143": {
-      "notes": "oasis",
-      "status": "Active"
+      "notes": "oasis | front center camera rework",
+      "status": "Build"
     },
     "ROG-144": {
-      "notes": "oasis",
-      "status": "Active"
+      "notes": "oasis | front center camera rework",
+      "status": "Build"
     },
     "ROG-145": {
-      "notes": "oasis, VSTAB-9511 brake lights out, engine knocking",
-      "status": "Active"
+      "notes": "oasis | front center camera rework",
+      "status": "Build"
     },
     "ROG-146": {
       "notes": "",
@@ -190,8 +190,8 @@
       "status": "Active"
     },
     "ROG-148": {
-      "notes": "oasis",
-      "status": "Active"
+      "notes": "oasis | front center camera rework",
+      "status": "Build"
     },
     "ROG-149": {
       "notes": "oasis",
