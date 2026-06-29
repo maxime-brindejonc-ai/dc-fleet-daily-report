@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-06-29T17:45:50.635277Z",
+  "last_run_utc": "2026-06-29T17:59:38.532199Z",
   "vehicles": {
     "ROG-101": {
       "notes": "Must run everyday. Special request.",
@@ -150,8 +150,8 @@
       "status": "Out of Service"
     },
     "ROG-138": {
-      "notes": "oasis",
-      "status": "Active"
+      "notes": "oasis | front center camera rework",
+      "status": "Build"
     },
     "ROG-139": {
       "notes": "",
@@ -194,8 +194,8 @@
       "status": "Build"
     },
     "ROG-149": {
-      "notes": "oasis",
-      "status": "Active"
+      "notes": "oasis | front center camera rework",
+      "status": "Build"
     },
     "ROG-201": {
       "notes": "Yocto vehicle with Front LGIT cameras | AVP-52942 & VBUILD-15923",
