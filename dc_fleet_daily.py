@@ -314,12 +314,23 @@ def confluence_auth():
 
 
 def get_current_page():
-    url = f"https://{env('ATLASSIAN_DOMAIN')}/wiki/api/v2/pages/{env('CONFLUENCE_PAGE_ID')}"
+    page_id = env("CONFLUENCE_PAGE_ID")
+    url = f"https://{env('ATLASSIAN_DOMAIN')}/wiki/api/v2/pages/{page_id}"
     r = requests.get(
         url,
         headers={"Authorization": confluence_auth(), "Accept": "application/json"},
         timeout=30,
     )
+    if r.status_code == 404:
+        # Confluence Cloud returns 404 (not 401/403) for an expired/revoked
+        # API token, a wrong ATLASSIAN_EMAIL, or a genuinely missing page —
+        # the most common cause by far is an expired ATLASSIAN_API_TOKEN.
+        sys.exit(
+            f"Confluence returned 404 for page {page_id}. The page exists, so this is "
+            f"almost certainly an expired/revoked ATLASSIAN_API_TOKEN (or wrong "
+            f"ATLASSIAN_EMAIL). Regenerate the token at https://id.atlassian.com/manage-profile/security/api-tokens "
+            f"and update the GitHub secret: gh secret set ATLASSIAN_API_TOKEN."
+        )
     r.raise_for_status()
     return r.json()
 
