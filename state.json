@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-06-30T18:48:39.230163Z",
+  "last_run_utc": "2026-06-30T23:23:56.259682Z",
   "vehicles": {
     "ROG-101": {
       "notes": "Must run everyday. Special request.",
@@ -11,7 +11,7 @@
     },
     "ROG-103": {
       "notes": "oasis | Reworking windshield shroud",
-      "status": "Out of Service"
+      "status": "Active"
     },
     "ROG-104": {
       "notes": "",
@@ -27,7 +27,7 @@
     },
     "ROG-107": {
       "notes": "oasis | Reworking windshield shroud",
-      "status": "Out of Service"
+      "status": "Active"
     },
     "ROG-108": {
       "notes": "",
@@ -107,7 +107,7 @@
     },
     "ROG-127": {
       "notes": "back up oasis - ready",
-      "status": "Active"
+      "status": "Out of Service"
     },
     "ROG-128": {
       "notes": "oasis backup",
@@ -127,7 +127,7 @@
     },
     "ROG-132": {
       "notes": "oasis | Reworking windshield shroud",
-      "status": "Out of Service"
+      "status": "Active"
     },
     "ROG-133": {
       "notes": "Assign daily. Collect 1hr of data in the morning and upload. Regular schedule afterwards.",
@@ -146,8 +146,8 @@
       "status": "Active"
     },
     "ROG-137": {
-      "notes": "Robotaxi Mule | cameras down - VSTAB-9540",
-      "status": "Out of Service"
+      "notes": "Robotaxi Mule",
+      "status": "Active"
     },
     "ROG-138": {
       "notes": "oasis | Reworking windshield shroud | logPC fan inop (VSTAB-9481 & VBUILD-16239)",
@@ -167,7 +167,7 @@
     },
     "ROG-142": {
       "notes": "back up oasis | Reworking windshield shroud",
-      "status": "Out of Service"
+      "status": "Active"
     },
     "ROG-143": {
       "notes": "oasis | Reworking windshield shroud",
@@ -175,7 +175,7 @@
     },
     "ROG-144": {
       "notes": "oasis | Reworking windshield shroud",
-      "status": "Out of Service"
+      "status": "Active"
     },
     "ROG-145": {
       "notes": "oasis | Reworking windshield shroud",
@@ -187,15 +187,15 @@
     },
     "ROG-147": {
       "notes": "oasis | Reworking windshield shroud",
-      "status": "Out of Service"
+      "status": "Active"
     },
     "ROG-148": {
       "notes": "oasis | Reworking windshield shroud",
-      "status": "Out of Service"
+      "status": "Active"
     },
     "ROG-149": {
       "notes": "oasis | Reworking windshield shroud",
-      "status": "Out of Service"
+      "status": "Active"
     },
     "ROG-201": {
       "notes": "Yocto vehicle with Front LGIT cameras | AVP-52942 & VBUILD-15923",
@@ -254,8 +254,8 @@
       "status": "Build"
     },
     "ROG-215": {
-      "notes": "",
-      "status": "Active"
+      "notes": "Registration expired 6/2/2026 VSTAB-9565",
+      "status": "Out of Service"
     }
   }
 }
