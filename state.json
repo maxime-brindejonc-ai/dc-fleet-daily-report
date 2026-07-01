@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-07-01T17:22:37.096782Z",
+  "last_run_utc": "2026-07-01T17:32:28.738998Z",
   "vehicles": {
     "ROG-101": {
       "notes": "Must run everyday. Special request.",
@@ -70,8 +70,8 @@
       "status": "Inactive"
     },
     "ROG-118": {
-      "notes": "camera test Mabel",
-      "status": "Out of Service"
+      "notes": "",
+      "status": "Active"
     },
     "ROG-119": {
       "notes": "",
