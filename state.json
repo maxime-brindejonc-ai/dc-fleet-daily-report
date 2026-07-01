@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-06-30T23:23:56.259682Z",
+  "last_run_utc": "2026-07-01T17:22:37.096782Z",
   "vehicles": {
     "ROG-101": {
       "notes": "Must run everyday. Special request.",
@@ -10,8 +10,8 @@
       "status": "Active"
     },
     "ROG-103": {
-      "notes": "oasis | Reworking windshield shroud",
-      "status": "Active"
+      "notes": "oasis | VSTAB-9587 Engine Malfunction, Power reduced, Service now",
+      "status": "Out of Service"
     },
     "ROG-104": {
       "notes": "",
@@ -79,7 +79,7 @@
     },
     "ROG-120": {
       "notes": "Kevin Root convert to 7v/25hz",
-      "status": "Out of Service"
+      "status": "Calibration"
     },
     "ROG-121": {
       "notes": "",
@@ -107,7 +107,7 @@
     },
     "ROG-127": {
       "notes": "back up oasis - ready",
-      "status": "Out of Service"
+      "status": "Active"
     },
     "ROG-128": {
       "notes": "oasis backup",
@@ -171,7 +171,7 @@
     },
     "ROG-143": {
       "notes": "oasis | Reworking windshield shroud",
-      "status": "Out of Service"
+      "status": "Active"
     },
     "ROG-144": {
       "notes": "oasis | Reworking windshield shroud",
@@ -179,7 +179,7 @@
     },
     "ROG-145": {
       "notes": "oasis | Reworking windshield shroud",
-      "status": "Out of Service"
+      "status": "Active"
     },
     "ROG-146": {
       "notes": "",
