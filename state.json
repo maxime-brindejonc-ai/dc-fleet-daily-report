@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-07-01T17:32:28.738998Z",
+  "last_run_utc": "2026-07-01T23:25:58.304829Z",
   "vehicles": {
     "ROG-101": {
       "notes": "Must run everyday. Special request.",
@@ -111,7 +111,7 @@
     },
     "ROG-128": {
       "notes": "oasis backup",
-      "status": "Active"
+      "status": "Out of Service"
     },
     "ROG-129": {
       "notes": "YOCTO Vehicle",
@@ -138,12 +138,12 @@
       "status": "Active"
     },
     "ROG-135": {
-      "notes": "Michigan ",
-      "status": "Active"
+      "notes": "Michigan | gen2 retrofit",
+      "status": "Build"
     },
     "ROG-136": {
       "notes": "back up oasis",
-      "status": "Active"
+      "status": "Out of Service"
     },
     "ROG-137": {
       "notes": "Robotaxi Mule",
