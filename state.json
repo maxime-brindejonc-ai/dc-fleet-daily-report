@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-07-02T16:58:38.066061Z",
+  "last_run_utc": "2026-07-02T17:59:41.778313Z",
   "vehicles": {
     "ROG-101": {
       "notes": "Must run everyday. Special request.",
@@ -62,8 +62,8 @@
       "status": "Active"
     },
     "ROG-116": {
-      "notes": "YOCTO Vehicle | FC/FCN offset right | 8V30FPS change [VCO-3423, 3424]",
-      "status": "Calibration"
+      "notes": "YOCTO ",
+      "status": "Active"
     },
     "ROG-117": {
       "notes": " collision VSTAB-6216 - at dealer for service",
