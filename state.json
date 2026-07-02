@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-07-02T17:59:41.778313Z",
+  "last_run_utc": "2026-07-02T23:19:06.914091Z",
   "vehicles": {
     "ROG-101": {
       "notes": "Must run everyday. Special request.",
@@ -162,7 +162,7 @@
       "status": "Active"
     },
     "ROG-141": {
-      "notes": "oasis - @dealer work",
+      "notes": "oasis | post dealer work VBUILD-16471",
       "status": "Out of Service"
     },
     "ROG-142": {
@@ -230,8 +230,8 @@
       "status": "Build"
     },
     "ROG-209": {
-      "notes": "Gen2 new build",
-      "status": "Calibration"
+      "notes": "",
+      "status": "Active"
     },
     "ROG-210": {
       "notes": "Gen2 new build",
