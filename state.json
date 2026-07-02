@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-07-01T23:25:58.304829Z",
+  "last_run_utc": "2026-07-02T00:18:40.984416Z",
   "vehicles": {
     "ROG-101": {
       "notes": "Must run everyday. Special request.",
@@ -78,8 +78,8 @@
       "status": "Active"
     },
     "ROG-120": {
-      "notes": "Kevin Root convert to 7v/25hz",
-      "status": "Calibration"
+      "notes": "Oasis.",
+      "status": "Active"
     },
     "ROG-121": {
       "notes": "",
@@ -110,7 +110,7 @@
       "status": "Active"
     },
     "ROG-128": {
-      "notes": "oasis backup",
+      "notes": "oasis backup | windshield shroud rework",
       "status": "Out of Service"
     },
     "ROG-129": {
@@ -142,7 +142,7 @@
       "status": "Build"
     },
     "ROG-136": {
-      "notes": "back up oasis",
+      "notes": "back up oasis | Reworking windshield shroud",
       "status": "Out of Service"
     },
     "ROG-137": {
