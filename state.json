@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-07-05T16:16:05.161314Z",
+  "last_run_utc": "2026-07-06T17:49:59.503420Z",
   "vehicles": {
     "ROG-101": {
       "notes": "Must run everyday. Special request.",
@@ -54,15 +54,15 @@
       "status": "Active"
     },
     "ROG-114": {
-      "notes": "",
-      "status": "Active"
+      "notes": "rework front center camera shroud",
+      "status": "Out of Service"
     },
     "ROG-115": {
       "notes": "In transit do not assign to operator",
       "status": "Active"
     },
     "ROG-116": {
-      "notes": "YOCTO ",
+      "notes": "YOCTO | dead battery and CEL VSTAB-9662",
       "status": "Out of Service"
     },
     "ROG-117": {
@@ -90,8 +90,8 @@
       "status": "Active"
     },
     "ROG-123": {
-      "notes": "",
-      "status": "Active"
+      "notes": "rework front center camera shroud",
+      "status": "Out of Service"
     },
     "ROG-124": {
       "notes": "",
