@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-07-06T17:58:47.058553Z",
+  "last_run_utc": "2026-07-06T23:18:39.665475Z",
   "vehicles": {
     "ROG-101": {
       "notes": "Must run everyday. Special request.",
@@ -15,7 +15,7 @@
     },
     "ROG-104": {
       "notes": "iidar noise VSTAB-9711",
-      "status": "Out of Service"
+      "status": "Calibration"
     },
     "ROG-105": {
       "notes": "Mechanical Issue [VSTAB-976]",
@@ -55,7 +55,7 @@
     },
     "ROG-114": {
       "notes": "rework front center camera shroud",
-      "status": "Out of Service"
+      "status": "Active"
     },
     "ROG-115": {
       "notes": "In transit do not assign to operator",
@@ -63,7 +63,7 @@
     },
     "ROG-116": {
       "notes": "YOCTO | dead battery and CEL VSTAB-9662",
-      "status": "Out of Service"
+      "status": "Active"
     },
     "ROG-117": {
       "notes": " collision VSTAB-6216 - at dealer for service",
@@ -91,7 +91,7 @@
     },
     "ROG-123": {
       "notes": "rework front center camera shroud",
-      "status": "Out of Service"
+      "status": "Active"
     },
     "ROG-124": {
       "notes": "",
@@ -179,7 +179,7 @@
     },
     "ROG-145": {
       "notes": "oasis | Reworking windshield shroud",
-      "status": "Active"
+      "status": "Calibration"
     },
     "ROG-146": {
       "notes": "",
