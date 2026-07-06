@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-07-06T17:49:59.503420Z",
+  "last_run_utc": "2026-07-06T17:58:47.058553Z",
   "vehicles": {
     "ROG-101": {
       "notes": "Must run everyday. Special request.",
@@ -14,8 +14,8 @@
       "status": "Out of Service"
     },
     "ROG-104": {
-      "notes": "",
-      "status": "Active"
+      "notes": "iidar noise VSTAB-9711",
+      "status": "Out of Service"
     },
     "ROG-105": {
       "notes": "Mechanical Issue [VSTAB-976]",
