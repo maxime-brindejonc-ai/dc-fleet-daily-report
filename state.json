@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-07-06T23:18:39.665475Z",
+  "last_run_utc": "2026-07-07T17:24:47.417659Z",
   "vehicles": {
     "ROG-101": {
       "notes": "Must run everyday. Special request.",
@@ -30,8 +30,8 @@
       "status": "Active"
     },
     "ROG-108": {
-      "notes": "",
-      "status": "Active"
+      "notes": "rework front center camera shroud",
+      "status": "Out of Service"
     },
     "ROG-109": {
       "notes": "Alex M. static testing (time lapse) - will need to go to dealer ETC EOM - VBUILD-16189",
@@ -46,8 +46,8 @@
       "status": "Active"
     },
     "ROG-112": {
-      "notes": "",
-      "status": "Active"
+      "notes": "rework front center camera shroud",
+      "status": "Out of Service"
     },
     "ROG-113": {
       "notes": "Robotaxi Mule ",
@@ -86,8 +86,8 @@
       "status": "Active"
     },
     "ROG-122": {
-      "notes": "Master branch test vehicle | Assign daily.",
-      "status": "Active"
+      "notes": "rework front center camera shroud",
+      "status": "Out of Service"
     },
     "ROG-123": {
       "notes": "rework front center camera shroud",
@@ -162,7 +162,7 @@
       "status": "Active"
     },
     "ROG-141": {
-      "notes": "oasis | post dealer work VBUILD-16471",
+      "notes": "oasis | post dealer work VBUILD-16471 collision icon",
       "status": "Out of Service"
     },
     "ROG-142": {
@@ -178,8 +178,8 @@
       "status": "Active"
     },
     "ROG-145": {
-      "notes": "oasis | Reworking windshield shroud",
-      "status": "Calibration"
+      "notes": "oasis",
+      "status": "Active"
     },
     "ROG-146": {
       "notes": "",
