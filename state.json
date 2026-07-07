@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-07-07T17:24:47.417659Z",
+  "last_run_utc": "2026-07-07T23:11:29.658658Z",
   "vehicles": {
     "ROG-101": {
       "notes": "Must run everyday. Special request.",
@@ -14,8 +14,8 @@
       "status": "Out of Service"
     },
     "ROG-104": {
-      "notes": "iidar noise VSTAB-9711",
-      "status": "Calibration"
+      "notes": "",
+      "status": "Active"
     },
     "ROG-105": {
       "notes": "Mechanical Issue [VSTAB-976]",
@@ -27,7 +27,7 @@
     },
     "ROG-107": {
       "notes": "oasis | Reworking windshield shroud",
-      "status": "Active"
+      "status": "Out of Service"
     },
     "ROG-108": {
       "notes": "rework front center camera shroud",
