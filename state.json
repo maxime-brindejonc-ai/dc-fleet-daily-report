@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-07-07T23:11:29.658658Z",
+  "last_run_utc": "2026-07-07T23:33:06.125674Z",
   "vehicles": {
     "ROG-101": {
       "notes": "Must run everyday. Special request.",
@@ -27,7 +27,7 @@
     },
     "ROG-107": {
       "notes": "oasis | Reworking windshield shroud",
-      "status": "Out of Service"
+      "status": "Active"
     },
     "ROG-108": {
       "notes": "rework front center camera shroud",
