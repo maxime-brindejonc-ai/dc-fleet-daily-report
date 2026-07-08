@@ -1,13 +1,13 @@
 {
-  "last_run_utc": "2026-07-08T17:49:08.499855Z",
+  "last_run_utc": "2026-07-08T23:20:20.107243Z",
   "vehicles": {
     "ROG-101": {
-      "notes": "Must run everyday. Special request.",
-      "status": "Active"
+      "notes": "front center camera shroud rework",
+      "status": "Out of Service"
     },
     "ROG-102": {
-      "notes": "",
-      "status": "Active"
+      "notes": "rework front center camera shroud",
+      "status": "Out of Service"
     },
     "ROG-103": {
       "notes": "oasis",
@@ -22,8 +22,8 @@
       "status": "Inactive"
     },
     "ROG-106": {
-      "notes": "YOCTO Vehicle ",
-      "status": "Active"
+      "notes": "YOCTO Vehicle | shroud rework",
+      "status": "Out of Service"
     },
     "ROG-107": {
       "notes": "oasis | Reworking windshield shroud",
@@ -31,7 +31,7 @@
     },
     "ROG-108": {
       "notes": "rework front center camera shroud",
-      "status": "Out of Service"
+      "status": "Active"
     },
     "ROG-109": {
       "notes": "Alex M. static testing (time lapse) - will need to go to dealer ETC EOM - VBUILD-16189",
@@ -47,7 +47,7 @@
     },
     "ROG-112": {
       "notes": "rework front center camera shroud",
-      "status": "Out of Service"
+      "status": "Active"
     },
     "ROG-113": {
       "notes": "Robotaxi Mule ",
@@ -87,7 +87,7 @@
     },
     "ROG-122": {
       "notes": "rework front center camera shroud",
-      "status": "Out of Service"
+      "status": "Active"
     },
     "ROG-123": {
       "notes": "rework front center camera shroud",
@@ -142,12 +142,12 @@
       "status": "Build"
     },
     "ROG-136": {
-      "notes": "oasis | Rework windshield shroud",
+      "notes": "oasis ",
       "status": "Active"
     },
     "ROG-137": {
-      "notes": "Robotaxi Mule",
-      "status": "Active"
+      "notes": "Robotaxi Mule | front camera haze [VBUILD-16699]",
+      "status": "Out of Service"
     },
     "ROG-138": {
       "notes": "oasis | Reworking windshield shroud | logPC fan inop (VSTAB-9481 & VBUILD-16239)",
@@ -242,8 +242,8 @@
       "status": "Out of Service"
     },
     "ROG-212": {
-      "notes": "Gen2 new build",
-      "status": "Build"
+      "notes": "",
+      "status": "Active"
     },
     "ROG-213": {
       "notes": "Gen2 new build",
