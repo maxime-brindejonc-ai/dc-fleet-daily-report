@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-07-08T16:45:58.927719Z",
+  "last_run_utc": "2026-07-08T17:04:28.612689Z",
   "vehicles": {
     "ROG-101": {
       "notes": "Must run everyday. Special request.",
@@ -11,7 +11,7 @@
     },
     "ROG-103": {
       "notes": "oasis | VSTAB-9587 Engine Malfunction, Power reduced, Service now",
-      "status": "Out of Service"
+      "status": "Calibration"
     },
     "ROG-104": {
       "notes": "",
