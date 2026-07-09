@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-07-09T17:25:23.950677Z",
+  "last_run_utc": "2026-07-09T23:23:03.685776Z",
   "vehicles": {
     "ROG-101": {
       "notes": "front center camera shroud rework",
@@ -14,8 +14,8 @@
       "status": "Active"
     },
     "ROG-104": {
-      "notes": "",
-      "status": "Active"
+      "notes": "30 fps VCO",
+      "status": "Out of Service"
     },
     "ROG-105": {
       "notes": "Mechanical Issue [VSTAB-976]",
@@ -30,8 +30,8 @@
       "status": "Active"
     },
     "ROG-108": {
-      "notes": "rework front center camera shroud",
-      "status": "Active"
+      "notes": "Front camera replacement VSTAB-9813",
+      "status": "Out of Service"
     },
     "ROG-109": {
       "notes": "Alex M. static testing (time lapse) - will need to go to dealer ETC EOM - VBUILD-16189",
@@ -74,8 +74,8 @@
       "status": "Active"
     },
     "ROG-119": {
-      "notes": "",
-      "status": "Active"
+      "notes": "front center camera shroud rework",
+      "status": "Out of Service"
     },
     "ROG-120": {
       "notes": "Oasis.",
@@ -138,16 +138,16 @@
       "status": "Active"
     },
     "ROG-135": {
-      "notes": "Michigan | gen2 retrofit",
-      "status": "Build"
+      "notes": "Michigan | gen2 retrofit | Note: Change to Oasis after cal. [SQ]",
+      "status": "Calibration"
     },
     "ROG-136": {
       "notes": "oasis ",
       "status": "Active"
     },
     "ROG-137": {
-      "notes": "Robotaxi Mule | front camera haze [VBUILD-16699]",
-      "status": "Out of Service"
+      "notes": "Robotaxi Mule",
+      "status": "Active"
     },
     "ROG-138": {
       "notes": "oasis | Reworking windshield shroud | logPC fan inop (VSTAB-9481 & VBUILD-16239)",
@@ -238,8 +238,8 @@
       "status": "Build"
     },
     "ROG-211": {
-      "notes": "steering wheel issue - VSTAB-9471 ",
-      "status": "Calibration"
+      "notes": "",
+      "status": "Active"
     },
     "ROG-212": {
       "notes": "Expired registration",
