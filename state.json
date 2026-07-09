@@ -1,13 +1,13 @@
 {
-  "last_run_utc": "2026-07-08T23:20:20.107243Z",
+  "last_run_utc": "2026-07-09T17:25:23.950677Z",
   "vehicles": {
     "ROG-101": {
       "notes": "front center camera shroud rework",
-      "status": "Out of Service"
+      "status": "Active"
     },
     "ROG-102": {
       "notes": "rework front center camera shroud",
-      "status": "Out of Service"
+      "status": "Active"
     },
     "ROG-103": {
       "notes": "oasis",
@@ -23,7 +23,7 @@
     },
     "ROG-106": {
       "notes": "YOCTO Vehicle | shroud rework",
-      "status": "Out of Service"
+      "status": "Active"
     },
     "ROG-107": {
       "notes": "oasis | Reworking windshield shroud",
@@ -38,8 +38,8 @@
       "status": "Out of Service"
     },
     "ROG-110": {
-      "notes": "",
-      "status": "Active"
+      "notes": "front center camera shroud rework",
+      "status": "Out of Service"
     },
     "ROG-111": {
       "notes": "",
@@ -62,8 +62,8 @@
       "status": "Active"
     },
     "ROG-116": {
-      "notes": "YOCTO | dead battery and CEL VSTAB-9662",
-      "status": "Active"
+      "notes": "YOCTO | shroud rework + vco-3494 & vco-3424",
+      "status": "Out of Service"
     },
     "ROG-117": {
       "notes": " collision VSTAB-6216 - at dealer for service",
@@ -239,11 +239,11 @@
     },
     "ROG-211": {
       "notes": "steering wheel issue - VSTAB-9471 ",
-      "status": "Out of Service"
+      "status": "Calibration"
     },
     "ROG-212": {
-      "notes": "",
-      "status": "Active"
+      "notes": "Expired registration",
+      "status": "Out of Service"
     },
     "ROG-213": {
       "notes": "Gen2 new build",
