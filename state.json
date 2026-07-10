@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-07-10T17:03:51.398013Z",
+  "last_run_utc": "2026-07-10T23:09:49.505736Z",
   "vehicles": {
     "ROG-101": {
       "notes": "front center camera shroud rework",
@@ -30,8 +30,8 @@
       "status": "Active"
     },
     "ROG-108": {
-      "notes": "Front camera replacement VSTAB-9813",
-      "status": "Calibration"
+      "notes": "Oasis.",
+      "status": "Active"
     },
     "ROG-109": {
       "notes": "Alex M. static testing (time lapse) - will need to go to dealer ETC EOM - VBUILD-16189",
@@ -71,7 +71,7 @@
     },
     "ROG-118": {
       "notes": "camera swap -VSTAB-9829",
-      "status": "Out of Service"
+      "status": "Calibration"
     },
     "ROG-119": {
       "notes": "front center camera shroud rework",
@@ -82,8 +82,8 @@
       "status": "Active"
     },
     "ROG-121": {
-      "notes": "",
-      "status": "Active"
+      "notes": "front center camera shroud rework",
+      "status": "Out of Service"
     },
     "ROG-122": {
       "notes": "rework front center camera shroud",
@@ -122,8 +122,8 @@
       "status": "Out of Service"
     },
     "ROG-131": {
-      "notes": "",
-      "status": "Active"
+      "notes": "front center camera shroud rework",
+      "status": "Out of Service"
     },
     "ROG-132": {
       "notes": "oasis | Reworking windshield shroud",
@@ -151,11 +151,11 @@
     },
     "ROG-138": {
       "notes": "oasis | Reworking windshield shroud | logPC fan inop (VSTAB-9481 & VBUILD-16239)",
-      "status": "Out of Service"
+      "status": "Active"
     },
     "ROG-139": {
-      "notes": "Low Disk Space on \"Filesystem root\" error. Escalated to eng team for guidance. | VSTAB-9835",
-      "status": "Out of Service"
+      "notes": "",
+      "status": "Active"
     },
     "ROG-140": {
       "notes": "",
