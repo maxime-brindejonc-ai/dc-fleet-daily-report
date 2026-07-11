@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-07-11T00:07:12.879254Z",
+  "last_run_utc": "2026-07-11T16:01:45.181993Z",
   "vehicles": {
     "ROG-101": {
       "notes": "front center camera shroud rework",
@@ -78,12 +78,12 @@
       "status": "Active"
     },
     "ROG-120": {
-      "notes": "Oasis.",
+      "notes": "Oasis | Michigan Based Vehicle.",
       "status": "Active"
     },
     "ROG-121": {
       "notes": "front center camera shroud rework",
-      "status": "Out of Service"
+      "status": "Active"
     },
     "ROG-122": {
       "notes": "Oasis",
@@ -95,11 +95,11 @@
     },
     "ROG-124": {
       "notes": "front center camera shroud rework",
-      "status": "Out of Service"
+      "status": "Active"
     },
     "ROG-125": {
       "notes": "front center camera shroud rework",
-      "status": "Out of Service"
+      "status": "Active"
     },
     "ROG-126": {
       "notes": "",
@@ -115,15 +115,15 @@
     },
     "ROG-129": {
       "notes": "YOCTO Vehicle | front center camera shroud rework",
-      "status": "Out of Service"
+      "status": "Active"
     },
     "ROG-130": {
       "notes": "front center camera shroud rework",
-      "status": "Out of Service"
+      "status": "Active"
     },
     "ROG-131": {
       "notes": "front center camera shroud rework",
-      "status": "Out of Service"
+      "status": "Active"
     },
     "ROG-132": {
       "notes": "oasis | Reworking windshield shroud",
@@ -138,8 +138,8 @@
       "status": "Active"
     },
     "ROG-135": {
-      "notes": "Michigan | gen2 retrofit | Note: Change to Oasis after cal. [SQ]",
-      "status": "Calibration"
+      "notes": "Oasis | Michigan Based Vehicle.",
+      "status": "Active"
     },
     "ROG-136": {
       "notes": "oasis ",
