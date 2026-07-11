@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-07-10T23:09:49.505736Z",
+  "last_run_utc": "2026-07-11T00:07:12.879254Z",
   "vehicles": {
     "ROG-101": {
       "notes": "front center camera shroud rework",
@@ -86,7 +86,7 @@
       "status": "Out of Service"
     },
     "ROG-122": {
-      "notes": "rework front center camera shroud",
+      "notes": "Oasis",
       "status": "Active"
     },
     "ROG-123": {
