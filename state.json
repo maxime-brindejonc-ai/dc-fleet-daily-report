@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-07-13T17:20:33.987035Z",
+  "last_run_utc": "2026-07-13T17:34:03.366834Z",
   "vehicles": {
     "ROG-101": {
       "notes": "front center camera shroud rework",
@@ -70,8 +70,8 @@
       "status": "Inactive"
     },
     "ROG-118": {
-      "notes": "camera swap -VSTAB-9829",
-      "status": "Calibration"
+      "notes": "",
+      "status": "Active"
     },
     "ROG-119": {
       "notes": "front center camera shroud rework",
@@ -218,8 +218,8 @@
       "status": "Build"
     },
     "ROG-206": {
-      "notes": "Gen2 new build",
-      "status": "Calibration"
+      "notes": "",
+      "status": "Active"
     },
     "ROG-207": {
       "notes": "",
