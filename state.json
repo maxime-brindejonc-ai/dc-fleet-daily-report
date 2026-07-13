@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-07-12T23:01:31.384075Z",
+  "last_run_utc": "2026-07-13T17:20:33.987035Z",
   "vehicles": {
     "ROG-101": {
       "notes": "front center camera shroud rework",
@@ -46,7 +46,7 @@
       "status": "Active"
     },
     "ROG-112": {
-      "notes": "rework front center camera shroud",
+      "notes": "30fps ",
       "status": "Active"
     },
     "ROG-113": {
@@ -54,7 +54,7 @@
       "status": "Active"
     },
     "ROG-114": {
-      "notes": "rework front center camera shroud",
+      "notes": "",
       "status": "Active"
     },
     "ROG-115": {
@@ -130,12 +130,12 @@
       "status": "Active"
     },
     "ROG-133": {
-      "notes": "Assign daily. Collect 1hr of data in the morning and upload. Regular schedule afterwards.",
-      "status": "Active"
+      "notes": "Assign daily. Collect 1hr of data in the morning and upload. Regular schedule afterwards. | front center shroud rework",
+      "status": "Out of Service"
     },
     "ROG-134": {
-      "notes": "rear left tire  VSTAB-9405",
-      "status": "Active"
+      "notes": "front center camera shroud rework",
+      "status": "Out of Service"
     },
     "ROG-135": {
       "notes": "Oasis | Michigan Based Vehicle.",
@@ -182,8 +182,8 @@
       "status": "Active"
     },
     "ROG-146": {
-      "notes": "",
-      "status": "Active"
+      "notes": "front center camera shroud rework",
+      "status": "Out of Service"
     },
     "ROG-147": {
       "notes": "oasis | Reworking windshield shroud",
