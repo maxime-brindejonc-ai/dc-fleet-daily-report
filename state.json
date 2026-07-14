@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-07-14T00:02:12.573740Z",
+  "last_run_utc": "2026-07-14T16:22:21.979686Z",
   "vehicles": {
     "ROG-101": {
       "notes": "front center camera shroud rework",
@@ -127,15 +127,15 @@
     },
     "ROG-132": {
       "notes": "oasis | missing front radar - VSTAB-9930",
-      "status": "Out of Service"
+      "status": "Calibration"
     },
     "ROG-133": {
       "notes": "Assign daily. Collect 1hr of data in the morning and upload. Regular schedule afterwards. | front center shroud rework",
-      "status": "Out of Service"
+      "status": "Active"
     },
     "ROG-134": {
       "notes": "front center camera shroud rework",
-      "status": "Out of Service"
+      "status": "Active"
     },
     "ROG-135": {
       "notes": "Oasis | Michigan Based Vehicle.",
@@ -154,12 +154,12 @@
       "status": "Active"
     },
     "ROG-139": {
-      "notes": "",
-      "status": "Active"
+      "notes": "front center camera shroud rework",
+      "status": "Out of Service"
     },
     "ROG-140": {
-      "notes": "",
-      "status": "Active"
+      "notes": "front center camera shroud rework",
+      "status": "Out of Service"
     },
     "ROG-141": {
       "notes": "oasis | post dealer work VBUILD-16471 collision icon",
@@ -175,7 +175,7 @@
     },
     "ROG-144": {
       "notes": "oasis | missing front radar VSTAB-9931",
-      "status": "Out of Service"
+      "status": "Calibration"
     },
     "ROG-145": {
       "notes": "oasis",
@@ -183,7 +183,7 @@
     },
     "ROG-146": {
       "notes": "front center camera shroud rework",
-      "status": "Out of Service"
+      "status": "Active"
     },
     "ROG-147": {
       "notes": "oasis | Reworking windshield shroud",
@@ -202,8 +202,8 @@
       "status": "Build"
     },
     "ROG-202": {
-      "notes": "",
-      "status": "Active"
+      "notes": "front center camera shroud rework",
+      "status": "Out of Service"
     },
     "ROG-203": {
       "notes": "Gen2 new build",
@@ -222,8 +222,8 @@
       "status": "Active"
     },
     "ROG-207": {
-      "notes": "",
-      "status": "Active"
+      "notes": "front center camera shroud rework",
+      "status": "Out of Service"
     },
     "ROG-208": {
       "notes": "Gen2 new build",
