@@ -1,17 +1,17 @@
 {
-  "last_run_utc": "2026-07-15T16:39:50.377397Z",
+  "last_run_utc": "2026-07-15T23:08:10.213782Z",
   "vehicles": {
     "ROG-101": {
       "notes": "front center camera shroud rework",
       "status": "Active"
     },
     "ROG-102": {
-      "notes": "rework front center camera shroud",
+      "notes": "",
       "status": "Active"
     },
     "ROG-103": {
-      "notes": "oasis | VSTAB-9904 Engine malfunction",
-      "status": "Out of Service"
+      "notes": "oasis ",
+      "status": "Active"
     },
     "ROG-104": {
       "notes": "",
@@ -62,8 +62,8 @@
       "status": "Active"
     },
     "ROG-116": {
-      "notes": "YOCTO | vco-3494 & vco-3424",
-      "status": "Active"
+      "notes": "YOCTO | dealer VBUILD-17580",
+      "status": "Out of Service"
     },
     "ROG-117": {
       "notes": " collision VSTAB-6216 - at dealer for service",
@@ -231,7 +231,7 @@
     },
     "ROG-209": {
       "notes": "Rev3 windshield cameras running at 30fp for Eddi",
-      "status": "Out of Service"
+      "status": "Calibration"
     },
     "ROG-210": {
       "notes": "Gen2 new build",
