@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-07-14T23:06:56.554786Z",
+  "last_run_utc": "2026-07-15T16:39:50.377397Z",
   "vehicles": {
     "ROG-101": {
       "notes": "front center camera shroud rework",
@@ -131,7 +131,7 @@
     },
     "ROG-133": {
       "notes": "Assign daily. Collect 1hr of data in the morning and upload. Regular schedule afterwards. ",
-      "status": "Calibration"
+      "status": "Active"
     },
     "ROG-134": {
       "notes": "front center camera shroud rework",
@@ -150,16 +150,16 @@
       "status": "Out of Service"
     },
     "ROG-138": {
-      "notes": "oasis | Reworking windshield shroud | logPC fan inop (VSTAB-9481 & VBUILD-16239)",
-      "status": "Active"
+      "notes": "oasis | Reworking windshield shroud | logPC fan inop (VSTAB-9481 & VBUILD-16239) | camera image quality front center VSTAB-9947",
+      "status": "Out of Service"
     },
     "ROG-139": {
-      "notes": "front center camera shroud rework",
-      "status": "Out of Service"
+      "notes": "",
+      "status": "Active"
     },
     "ROG-140": {
-      "notes": "front center camera shroud rework",
-      "status": "Out of Service"
+      "notes": "",
+      "status": "Active"
     },
     "ROG-141": {
       "notes": "oasis | post dealer work VBUILD-16471 collision icon",
@@ -202,8 +202,8 @@
       "status": "Build"
     },
     "ROG-202": {
-      "notes": "front center camera shroud rework",
-      "status": "Out of Service"
+      "notes": "",
+      "status": "Active"
     },
     "ROG-203": {
       "notes": "Gen2 new build",
@@ -222,8 +222,8 @@
       "status": "Active"
     },
     "ROG-207": {
-      "notes": "front center camera shroud rework",
-      "status": "Out of Service"
+      "notes": "",
+      "status": "Active"
     },
     "ROG-208": {
       "notes": "Gen2 new build",
