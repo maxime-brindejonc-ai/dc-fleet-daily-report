@@ -1,17 +1,17 @@
 {
-  "last_run_utc": "2026-07-15T23:08:10.213782Z",
+  "last_run_utc": "2026-07-16T16:24:49.272590Z",
   "vehicles": {
     "ROG-101": {
       "notes": "front center camera shroud rework",
       "status": "Active"
     },
     "ROG-102": {
-      "notes": "",
-      "status": "Active"
+      "notes": "https://appliedintuition.atlassian.net/browse/VBUILD-17591",
+      "status": "Calibration"
     },
     "ROG-103": {
-      "notes": "oasis ",
-      "status": "Active"
+      "notes": "oasis | Engine Malfunction VSTAB-10037",
+      "status": "Out of Service"
     },
     "ROG-104": {
       "notes": "",
@@ -43,7 +43,7 @@
     },
     "ROG-111": {
       "notes": "installing front radar VBUILD-17437",
-      "status": "Out of Service"
+      "status": "Calibration"
     },
     "ROG-112": {
       "notes": "",
@@ -170,8 +170,8 @@
       "status": "Active"
     },
     "ROG-143": {
-      "notes": "oasis | Reworking windshield shroud",
-      "status": "Active"
+      "notes": "oasis | Transmission sound VSTAB-10049",
+      "status": "Out of Service"
     },
     "ROG-144": {
       "notes": "oasis ",
