@@ -1,13 +1,13 @@
 {
-  "last_run_utc": "2026-07-17T16:22:09.205140Z",
+  "last_run_utc": "2026-07-17T17:20:58.073310Z",
   "vehicles": {
     "ROG-101": {
       "notes": "front center camera shroud rework",
       "status": "Active"
     },
     "ROG-102": {
-      "notes": "https://appliedintuition.atlassian.net/browse/VBUILD-17591",
-      "status": "Calibration"
+      "notes": "",
+      "status": "Active"
     },
     "ROG-103": {
       "notes": "oasis | Engine Malfunction VSTAB-10037",
