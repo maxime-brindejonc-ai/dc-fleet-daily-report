@@ -1,13 +1,13 @@
 {
-  "last_run_utc": "2026-07-17T17:20:58.073310Z",
+  "last_run_utc": "2026-07-17T23:00:27.341961Z",
   "vehicles": {
     "ROG-101": {
       "notes": "front center camera shroud rework",
       "status": "Active"
     },
     "ROG-102": {
-      "notes": "",
-      "status": "Active"
+      "notes": "Expired registration",
+      "status": "Out of Service"
     },
     "ROG-103": {
       "notes": "oasis | Engine Malfunction VSTAB-10037",
@@ -46,7 +46,7 @@
       "status": "Out of Service"
     },
     "ROG-112": {
-      "notes": "",
+      "notes": "Camera Image Quality [Front Center] VSTAB-9933",
       "status": "Out of Service"
     },
     "ROG-113": {
@@ -54,8 +54,8 @@
       "status": "Out of Service"
     },
     "ROG-114": {
-      "notes": "",
-      "status": "Active"
+      "notes": "Camera Image Quality [Front Center] VSTAB-9857",
+      "status": "Out of Service"
     },
     "ROG-115": {
       "notes": "In transit do not assign to operator",
