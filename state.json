@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-07-21T00:06:17.540394Z",
+  "last_run_utc": "2026-07-21T16:37:04.682205Z",
   "vehicles": {
     "ROG-101": {
       "notes": "front center camera shroud rework",
@@ -7,7 +7,7 @@
     },
     "ROG-102": {
       "notes": "Expired registration",
-      "status": "Out of Service"
+      "status": "Inactive"
     },
     "ROG-103": {
       "notes": "oasis | Engine Malfunction VSTAB-10037",
@@ -30,8 +30,8 @@
       "status": "Active"
     },
     "ROG-108": {
-      "notes": "Oasis.",
-      "status": "Active"
+      "notes": "[VSTAB-10155] Engine Malfunction",
+      "status": "Out of Service"
     },
     "ROG-109": {
       "notes": "Post dealer work- VBUILD-16189",
@@ -39,7 +39,7 @@
     },
     "ROG-110": {
       "notes": "Camera Image Quality [Front Center] VSTAB-9958",
-      "status": "Out of Service"
+      "status": "Active"
     },
     "ROG-111": {
       "notes": "YOCTO flash VCO-3356",
@@ -202,7 +202,7 @@
       "status": "Build"
     },
     "ROG-202": {
-      "notes": "VSTAB-9574 ",
+      "notes": "poor quality data VSTAB-9574 ",
       "status": "Out of Service"
     },
     "ROG-203": {
@@ -243,7 +243,7 @@
     },
     "ROG-212": {
       "notes": "Expired registration",
-      "status": "Out of Service"
+      "status": "Inactive"
     },
     "ROG-213": {
       "notes": "Gen2 new build",
@@ -255,7 +255,7 @@
     },
     "ROG-215": {
       "notes": "Registration expired 6/2/2026 VSTAB-9565",
-      "status": "Out of Service"
+      "status": "Inactive"
     }
   }
 }
