@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-07-20T18:13:24.336020Z",
+  "last_run_utc": "2026-07-21T00:06:17.540394Z",
   "vehicles": {
     "ROG-101": {
       "notes": "front center camera shroud rework",
@@ -66,7 +66,7 @@
       "status": "Out of Service"
     },
     "ROG-117": {
-      "notes": " collision VSTAB-6216 - at dealer for service",
+      "notes": "",
       "status": "Inactive"
     },
     "ROG-118": {
