@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-07-21T16:37:04.682205Z",
+  "last_run_utc": "2026-07-21T17:40:00.237609Z",
   "vehicles": {
     "ROG-101": {
       "notes": "front center camera shroud rework",
@@ -230,8 +230,8 @@
       "status": "Build"
     },
     "ROG-209": {
-      "notes": "Rev3 windshield cameras running at 30fp for Eddi",
-      "status": "Calibration"
+      "notes": "Vehicle is OOS post calibration for a stationary test by AlexM.",
+      "status": "Out of Service"
     },
     "ROG-210": {
       "notes": "Gen2 new build",
