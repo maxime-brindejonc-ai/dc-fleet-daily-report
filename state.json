@@ -1,13 +1,13 @@
 {
-  "last_run_utc": "2026-07-21T17:40:00.237609Z",
+  "last_run_utc": "2026-07-21T23:06:58.381555Z",
   "vehicles": {
     "ROG-101": {
       "notes": "front center camera shroud rework",
       "status": "Active"
     },
     "ROG-102": {
-      "notes": "Expired registration",
-      "status": "Inactive"
+      "notes": "",
+      "status": "Active"
     },
     "ROG-103": {
       "notes": "oasis | Engine Malfunction VSTAB-10037",
@@ -34,7 +34,7 @@
       "status": "Out of Service"
     },
     "ROG-109": {
-      "notes": "Post dealer work- VBUILD-16189",
+      "notes": "YOCTO flash completed 7/20",
       "status": "Out of Service"
     },
     "ROG-110": {
@@ -46,7 +46,7 @@
       "status": "Out of Service"
     },
     "ROG-112": {
-      "notes": "Camera Image Quality [Front Center] VSTAB-9933",
+      "notes": "YOCTO flash",
       "status": "Out of Service"
     },
     "ROG-113": {
@@ -122,8 +122,8 @@
       "status": "Out of Service"
     },
     "ROG-131": {
-      "notes": "front center camera shroud rework",
-      "status": "Active"
+      "notes": "Alex M static testing",
+      "status": "Out of Service"
     },
     "ROG-132": {
       "notes": "oasis ",
@@ -230,8 +230,8 @@
       "status": "Build"
     },
     "ROG-209": {
-      "notes": "Vehicle is OOS post calibration for a stationary test by AlexM.",
-      "status": "Out of Service"
+      "notes": "",
+      "status": "Active"
     },
     "ROG-210": {
       "notes": "Gen2 new build",
