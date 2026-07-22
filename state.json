@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-07-22T16:27:43.519740Z",
+  "last_run_utc": "2026-07-22T17:36:58.131169Z",
   "vehicles": {
     "ROG-101": {
       "notes": "front center camera shroud rework",
@@ -123,7 +123,7 @@
     },
     "ROG-131": {
       "notes": "Alex M static testing",
-      "status": "Out of Service"
+      "status": "Active"
     },
     "ROG-132": {
       "notes": "oasis ",
