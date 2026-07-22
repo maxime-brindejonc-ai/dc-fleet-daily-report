@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-07-21T23:06:58.381555Z",
+  "last_run_utc": "2026-07-22T16:27:43.519740Z",
   "vehicles": {
     "ROG-101": {
       "notes": "front center camera shroud rework",
@@ -35,7 +35,7 @@
     },
     "ROG-109": {
       "notes": "YOCTO flash completed 7/20",
-      "status": "Out of Service"
+      "status": "Active"
     },
     "ROG-110": {
       "notes": "Camera Image Quality [Front Center] VSTAB-9958",
@@ -43,7 +43,7 @@
     },
     "ROG-111": {
       "notes": "YOCTO flash VCO-3356",
-      "status": "Out of Service"
+      "status": "Active"
     },
     "ROG-112": {
       "notes": "YOCTO flash",
@@ -134,8 +134,8 @@
       "status": "Active"
     },
     "ROG-134": {
-      "notes": "front center camera shroud rework",
-      "status": "Active"
+      "notes": "front center camera shroud rework v2 Mabel",
+      "status": "Out of Service"
     },
     "ROG-135": {
       "notes": "Oasis | Michigan Based Vehicle.",
