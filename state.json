@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-07-22T17:36:58.131169Z",
+  "last_run_utc": "2026-07-22T23:13:02.035653Z",
   "vehicles": {
     "ROG-101": {
       "notes": "front center camera shroud rework",
@@ -14,8 +14,8 @@
       "status": "Out of Service"
     },
     "ROG-104": {
-      "notes": "",
-      "status": "Active"
+      "notes": "YOCTO flash",
+      "status": "Out of Service"
     },
     "ROG-105": {
       "notes": "Mechanical Issue [VSTAB-976]",
@@ -46,8 +46,8 @@
       "status": "Active"
     },
     "ROG-112": {
-      "notes": "YOCTO flash",
-      "status": "Out of Service"
+      "notes": "YOCTO",
+      "status": "Active"
     },
     "ROG-113": {
       "notes": "Robotaxi Mule | data record issue VSTAB-9897",
