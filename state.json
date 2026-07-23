@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-07-23T16:41:32.510383Z",
+  "last_run_utc": "2026-07-23T23:07:00.032192Z",
   "vehicles": {
     "ROG-101": {
       "notes": "front center camera shroud rework",
@@ -14,8 +14,8 @@
       "status": "Out of Service"
     },
     "ROG-104": {
-      "notes": "YOCTO flash",
-      "status": "Out of Service"
+      "notes": "YOCTO",
+      "status": "Active"
     },
     "ROG-105": {
       "notes": "Mechanical Issue [VSTAB-976]",
