@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-07-22T23:13:02.035653Z",
+  "last_run_utc": "2026-07-23T16:41:32.510383Z",
   "vehicles": {
     "ROG-101": {
       "notes": "front center camera shroud rework",
@@ -74,8 +74,8 @@
       "status": "Active"
     },
     "ROG-119": {
-      "notes": "front center camera shroud rework",
-      "status": "Active"
+      "notes": "front center camera shroud rework v2",
+      "status": "Out of Service"
     },
     "ROG-120": {
       "notes": "Oasis | Michigan Based Vehicle.",
@@ -94,12 +94,12 @@
       "status": "Active"
     },
     "ROG-124": {
-      "notes": "front center camera shroud rework",
-      "status": "Active"
+      "notes": "front center camera shroud rework v2",
+      "status": "Out of Service"
     },
     "ROG-125": {
-      "notes": "front center camera shroud rework",
-      "status": "Active"
+      "notes": "front center camera shroud rework v2",
+      "status": "Out of Service"
     },
     "ROG-126": {
       "notes": "",
@@ -135,7 +135,7 @@
     },
     "ROG-134": {
       "notes": "front center camera shroud rework v2 Mabel",
-      "status": "Out of Service"
+      "status": "Active"
     },
     "ROG-135": {
       "notes": "Oasis | Michigan Based Vehicle.",
@@ -202,8 +202,8 @@
       "status": "Build"
     },
     "ROG-202": {
-      "notes": "poor quality data VSTAB-9574 ",
-      "status": "Out of Service"
+      "notes": "poor quality data VSTAB-9574 & VSTAB-10092",
+      "status": "Active"
     },
     "ROG-203": {
       "notes": "Gen2 new build",
