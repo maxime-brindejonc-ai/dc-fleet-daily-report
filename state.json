@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-07-24T16:49:16.420587Z",
+  "last_run_utc": "2026-07-24T23:12:03.558187Z",
   "vehicles": {
     "ROG-101": {
       "notes": "front center camera shroud rework",
@@ -51,7 +51,7 @@
     },
     "ROG-113": {
       "notes": "Robotaxi Mule | data record issue VSTAB-9897",
-      "status": "Out of Service"
+      "status": "Active"
     },
     "ROG-114": {
       "notes": "Camera Image Quality [Front Center] VSTAB-9857",
@@ -202,8 +202,8 @@
       "status": "Build"
     },
     "ROG-202": {
-      "notes": "poor quality data VSTAB-9574 & VSTAB-10092",
-      "status": "Active"
+      "notes": "poor quality data VSTAB-9574",
+      "status": "Out of Service"
     },
     "ROG-203": {
       "notes": "Gen2 new build",
@@ -223,7 +223,7 @@
     },
     "ROG-207": {
       "notes": "Monitor aint work [VBUILD-18019]",
-      "status": "Out of Service"
+      "status": "Active"
     },
     "ROG-208": {
       "notes": "Gen2 new build",
