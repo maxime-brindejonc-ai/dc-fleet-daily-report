@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-07-23T23:07:00.032192Z",
+  "last_run_utc": "2026-07-24T16:49:16.420587Z",
   "vehicles": {
     "ROG-101": {
       "notes": "front center camera shroud rework",
@@ -70,12 +70,12 @@
       "status": "Inactive"
     },
     "ROG-118": {
-      "notes": "",
-      "status": "Active"
+      "notes": "front center camera shroud rework v2",
+      "status": "Out of Service"
     },
     "ROG-119": {
       "notes": "front center camera shroud rework v2",
-      "status": "Out of Service"
+      "status": "Active"
     },
     "ROG-120": {
       "notes": "Oasis | Michigan Based Vehicle.",
@@ -95,11 +95,11 @@
     },
     "ROG-124": {
       "notes": "front center camera shroud rework v2",
-      "status": "Out of Service"
+      "status": "Active"
     },
     "ROG-125": {
       "notes": "front center camera shroud rework v2",
-      "status": "Out of Service"
+      "status": "Active"
     },
     "ROG-126": {
       "notes": "",
@@ -142,12 +142,12 @@
       "status": "Active"
     },
     "ROG-136": {
-      "notes": "oasis ",
-      "status": "Active"
+      "notes": "oasis | VSTAB-10239",
+      "status": "Out of Service"
     },
     "ROG-137": {
-      "notes": "Robotaxi Mule | data record issue VSTAB-9898",
-      "status": "Out of Service"
+      "notes": "Robotaxi Mule ",
+      "status": "Active"
     },
     "ROG-138": {
       "notes": "oasis | Reworking windshield shroud | logPC fan inop (VSTAB-9481 & VBUILD-16239) | camera image quality front center VSTAB-9947",
@@ -222,8 +222,8 @@
       "status": "Active"
     },
     "ROG-207": {
-      "notes": "",
-      "status": "Active"
+      "notes": "Monitor aint work [VBUILD-18019]",
+      "status": "Out of Service"
     },
     "ROG-208": {
       "notes": "Gen2 new build",
