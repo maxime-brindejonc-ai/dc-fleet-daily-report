@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-07-24T23:12:03.558187Z",
+  "last_run_utc": "2026-07-25T16:09:41.436785Z",
   "vehicles": {
     "ROG-101": {
       "notes": "front center camera shroud rework",
@@ -54,8 +54,8 @@
       "status": "Active"
     },
     "ROG-114": {
-      "notes": "Camera Image Quality [Front Center] VSTAB-9857",
-      "status": "Out of Service"
+      "notes": "",
+      "status": "Active"
     },
     "ROG-115": {
       "notes": "In transit do not assign to operator",
@@ -143,7 +143,7 @@
     },
     "ROG-136": {
       "notes": "oasis | VSTAB-10239",
-      "status": "Out of Service"
+      "status": "Active"
     },
     "ROG-137": {
       "notes": "Robotaxi Mule ",
