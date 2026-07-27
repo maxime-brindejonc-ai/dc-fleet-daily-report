@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-07-27T17:20:22.534011Z",
+  "last_run_utc": "2026-07-27T23:15:28.655436Z",
   "vehicles": {
     "ROG-101": {
       "notes": "front center camera shroud rework",
@@ -70,8 +70,8 @@
       "status": "Inactive"
     },
     "ROG-118": {
-      "notes": "front center camera shroud rework v2",
-      "status": "Out of Service"
+      "notes": "YOCTO",
+      "status": "Active"
     },
     "ROG-119": {
       "notes": "front center camera shroud rework v2",
@@ -90,8 +90,8 @@
       "status": "Active"
     },
     "ROG-123": {
-      "notes": "OEM wheels missing lug nuts VSTAV-10292",
-      "status": "Out of Service"
+      "notes": "",
+      "status": "Active"
     },
     "ROG-124": {
       "notes": "front center camera shroud rework v2",
@@ -130,8 +130,8 @@
       "status": "Active"
     },
     "ROG-133": {
-      "notes": "Assign daily. Collect 1hr of data in the morning and upload. Regular schedule afterwards. ",
-      "status": "Active"
+      "notes": "Assign daily. Collect 1hr of data in the morning and upload. Regular schedule afterwards.  || missing lug nuts VSTAB-10337",
+      "status": "Out of Service"
     },
     "ROG-134": {
       "notes": "front center camera shroud rework v2 Mabel",
@@ -226,8 +226,8 @@
       "status": "Active"
     },
     "ROG-208": {
-      "notes": "Gen2 new build",
-      "status": "Calibration"
+      "notes": "",
+      "status": "Active"
     },
     "ROG-209": {
       "notes": "",
