@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-07-28T16:46:24.973722Z",
+  "last_run_utc": "2026-07-28T23:16:58.540140Z",
   "vehicles": {
     "ROG-101": {
       "notes": "front center camera shroud rework",
@@ -130,8 +130,8 @@
       "status": "Active"
     },
     "ROG-133": {
-      "notes": "Assign daily. Collect 1hr of data in the morning and upload. Regular schedule afterwards.  || missing lug nuts VSTAB-10337",
-      "status": "Active"
+      "notes": "Assign daily. Collect 1hr of data in the morning and upload. Regular schedule afterwards.  || missing lug nuts VBUILD-18040",
+      "status": "Out of Service"
     },
     "ROG-134": {
       "notes": "front center camera shroud rework v2 Mabel",
@@ -146,8 +146,8 @@
       "status": "Active"
     },
     "ROG-137": {
-      "notes": "Robotaxi Mule ",
-      "status": "Active"
+      "notes": "Robotaxi Mule |  poor data VSTAB-9133",
+      "status": "Out of Service"
     },
     "ROG-138": {
       "notes": "oasis | Reworking windshield shroud | logPC fan inop (VSTAB-9481 & VBUILD-16239) | camera image quality front center VSTAB-9947",
@@ -166,7 +166,7 @@
       "status": "Out of Service"
     },
     "ROG-142": {
-      "notes": "back up oasis | Reworking windshield shroud",
+      "notes": "oasis",
       "status": "Active"
     },
     "ROG-143": {
@@ -206,8 +206,8 @@
       "status": "Out of Service"
     },
     "ROG-203": {
-      "notes": "Gen2 new build",
-      "status": "Calibration"
+      "notes": "",
+      "status": "Active"
     },
     "ROG-204": {
       "notes": "vehicle OS  -- special project/ will not be DC fleet",
