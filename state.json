@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-07-27T23:15:28.655436Z",
+  "last_run_utc": "2026-07-28T16:46:24.973722Z",
   "vehicles": {
     "ROG-101": {
       "notes": "front center camera shroud rework",
@@ -35,7 +35,7 @@
     },
     "ROG-109": {
       "notes": "YOCTO | Camera Image quality [Front center] VSTAB-10251",
-      "status": "Out of Service"
+      "status": "Active"
     },
     "ROG-110": {
       "notes": "Camera Image Quality [Front Center] VSTAB-9958",
@@ -131,7 +131,7 @@
     },
     "ROG-133": {
       "notes": "Assign daily. Collect 1hr of data in the morning and upload. Regular schedule afterwards.  || missing lug nuts VSTAB-10337",
-      "status": "Out of Service"
+      "status": "Active"
     },
     "ROG-134": {
       "notes": "front center camera shroud rework v2 Mabel",
