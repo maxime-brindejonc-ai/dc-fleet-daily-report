@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-07-28T23:16:58.540140Z",
+  "last_run_utc": "2026-07-29T00:06:51.665993Z",
   "vehicles": {
     "ROG-101": {
       "notes": "front center camera shroud rework",
@@ -226,7 +226,7 @@
       "status": "Active"
     },
     "ROG-208": {
-      "notes": "",
+      "notes": "Replacement vehicle for release validation while rog133 is OOS. Please assign daily for 1hr runs+data upload.",
       "status": "Active"
     },
     "ROG-209": {
