@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-07-30T16:43:03.718564Z",
+  "last_run_utc": "2026-07-30T23:15:40.828772Z",
   "vehicles": {
     "ROG-101": {
       "notes": "front center camera shroud rework",
@@ -50,8 +50,8 @@
       "status": "Active"
     },
     "ROG-113": {
-      "notes": "Robotaxi Mule | data record issue VSTAB-9897",
-      "status": "Active"
+      "notes": "Robotaxi Mule | data record issue VSTAB-10363",
+      "status": "Out of Service"
     },
     "ROG-114": {
       "notes": "",
@@ -63,7 +63,7 @@
     },
     "ROG-116": {
       "notes": "YOCTO | dealer VBUILD-17580",
-      "status": "Out of Service"
+      "status": "Calibration"
     },
     "ROG-117": {
       "notes": "",
@@ -102,8 +102,8 @@
       "status": "Active"
     },
     "ROG-126": {
-      "notes": "",
-      "status": "Active"
+      "notes": "Camera Image Quality [Front Center] VSTAB-10419",
+      "status": "Out of Service"
     },
     "ROG-127": {
       "notes": "back up oasis - ready",
@@ -131,7 +131,7 @@
     },
     "ROG-133": {
       "notes": "Assign daily. Collect 1hr of data in the morning and upload. Regular schedule afterwards.  || missing lug nuts VBUILD-18040",
-      "status": "Out of Service"
+      "status": "Active"
     },
     "ROG-134": {
       "notes": "front center camera shroud rework v2 Mabel",
@@ -215,7 +215,7 @@
     },
     "ROG-205": {
       "notes": "Gen2 new build",
-      "status": "Build"
+      "status": "Calibration"
     },
     "ROG-206": {
       "notes": "Release validation replacement vehicle. Assign daily. Collect 1hr dc+data upload every morning. ",
@@ -226,8 +226,8 @@
       "status": "Active"
     },
     "ROG-208": {
-      "notes": "Vehicle has not gas according to the AM shift coordinator and no gas card.",
-      "status": "Out of Service"
+      "notes": "",
+      "status": "Active"
     },
     "ROG-209": {
       "notes": "",
@@ -238,8 +238,8 @@
       "status": "Build"
     },
     "ROG-211": {
-      "notes": "",
-      "status": "Active"
+      "notes": "Camera Image Quality [Front Center] VSTAB-10422",
+      "status": "Out of Service"
     },
     "ROG-212": {
       "notes": "Expired registration",
@@ -247,11 +247,11 @@
     },
     "ROG-213": {
       "notes": "Gen2 new build",
-      "status": "Build"
+      "status": "Calibration"
     },
     "ROG-214": {
       "notes": "Gen2 new build",
-      "status": "Build"
+      "status": "Calibration"
     },
     "ROG-215": {
       "notes": "Registration expired 6/2/2026 VSTAB-9565",
