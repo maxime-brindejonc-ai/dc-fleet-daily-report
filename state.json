@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-07-31T16:50:16.094459Z",
+  "last_run_utc": "2026-07-31T23:13:09.478355Z",
   "vehicles": {
     "ROG-101": {
       "notes": "front center camera shroud rework",
@@ -62,8 +62,8 @@
       "status": "Active"
     },
     "ROG-116": {
-      "notes": "YOCTO | dealer VBUILD-17580",
-      "status": "Calibration"
+      "notes": "YOCTO ",
+      "status": "Active"
     },
     "ROG-117": {
       "notes": "",
@@ -130,7 +130,7 @@
       "status": "Active"
     },
     "ROG-133": {
-      "notes": "Assign daily. Collect 1hr of data in the morning and upload. Regular schedule afterwards.  || missing lug nuts VBUILD-18040",
+      "notes": "",
       "status": "Active"
     },
     "ROG-134": {
@@ -250,8 +250,8 @@
       "status": "Calibration"
     },
     "ROG-214": {
-      "notes": "Gen2 new build",
-      "status": "Calibration"
+      "notes": "",
+      "status": "Active"
     },
     "ROG-215": {
       "notes": "Registration expired 6/2/2026 VSTAB-9565",
