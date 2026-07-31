@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-07-30T23:15:40.828772Z",
+  "last_run_utc": "2026-07-31T16:50:16.094459Z",
   "vehicles": {
     "ROG-101": {
       "notes": "front center camera shroud rework",
@@ -103,7 +103,7 @@
     },
     "ROG-126": {
       "notes": "Camera Image Quality [Front Center] VSTAB-10419",
-      "status": "Out of Service"
+      "status": "Active"
     },
     "ROG-127": {
       "notes": "back up oasis - ready",
@@ -239,7 +239,7 @@
     },
     "ROG-211": {
       "notes": "Camera Image Quality [Front Center] VSTAB-10422",
-      "status": "Out of Service"
+      "status": "Active"
     },
     "ROG-212": {
       "notes": "Expired registration",
