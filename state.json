@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-08-02T16:08:17.826960Z",
+  "last_run_utc": "2026-08-02T23:03:52.584267Z",
   "vehicles": {
     "ROG-101": {
       "notes": "front center camera shroud rework",
@@ -42,8 +42,8 @@
       "status": "Active"
     },
     "ROG-111": {
-      "notes": "YOCTO flash VCO-3356",
-      "status": "Active"
+      "notes": "VSTAB-10506 Ublox / Localization issue",
+      "status": "Out of Service"
     },
     "ROG-112": {
       "notes": "YOCTO",
