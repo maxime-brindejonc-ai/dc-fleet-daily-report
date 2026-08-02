@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-08-01T16:07:40.156006Z",
+  "last_run_utc": "2026-08-02T16:08:17.826960Z",
   "vehicles": {
     "ROG-101": {
       "notes": "front center camera shroud rework",
@@ -159,7 +159,7 @@
     },
     "ROG-140": {
       "notes": "",
-      "status": "Active"
+      "status": "Out of Service"
     },
     "ROG-141": {
       "notes": "oasis | post dealer work VBUILD-16471 collision icon",
