@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-08-02T23:03:52.584267Z",
+  "last_run_utc": "2026-08-03T17:15:05.119909Z",
   "vehicles": {
     "ROG-101": {
       "notes": "front center camera shroud rework",
@@ -158,7 +158,7 @@
       "status": "Active"
     },
     "ROG-140": {
-      "notes": "",
+      "notes": "rear left tire has nail",
       "status": "Out of Service"
     },
     "ROG-141": {
@@ -222,8 +222,8 @@
       "status": "Active"
     },
     "ROG-207": {
-      "notes": "Monitor aint work [VBUILD-18019]",
-      "status": "Active"
+      "notes": "Monitor aint work [VBUILD-18019] [VBUILD-18207]",
+      "status": "Out of Service"
     },
     "ROG-208": {
       "notes": "",
