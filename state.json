@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-08-03T17:15:05.119909Z",
+  "last_run_utc": "2026-08-03T23:14:14.792904Z",
   "vehicles": {
     "ROG-101": {
       "notes": "front center camera shroud rework",
@@ -42,7 +42,7 @@
       "status": "Active"
     },
     "ROG-111": {
-      "notes": "VSTAB-10506 Ublox / Localization issue",
+      "notes": "Camera shroud",
       "status": "Out of Service"
     },
     "ROG-112": {
@@ -106,8 +106,8 @@
       "status": "Active"
     },
     "ROG-127": {
-      "notes": "back up oasis - ready",
-      "status": "Active"
+      "notes": "Camera Image Quality [Front Center] VSTAB-10545",
+      "status": "Out of Service"
     },
     "ROG-128": {
       "notes": "oasis | Rework windshield shroud",
@@ -158,8 +158,8 @@
       "status": "Active"
     },
     "ROG-140": {
-      "notes": "rear left tire has nail",
-      "status": "Out of Service"
+      "notes": "",
+      "status": "Active"
     },
     "ROG-141": {
       "notes": "oasis | post dealer work VBUILD-16471 collision icon",
@@ -167,7 +167,7 @@
     },
     "ROG-142": {
       "notes": "oasis",
-      "status": "Active"
+      "status": "Out of Service"
     },
     "ROG-143": {
       "notes": "oasis | Transmission sound VSTAB-10049",
@@ -214,16 +214,16 @@
       "status": "Inactive"
     },
     "ROG-205": {
-      "notes": "Gen2 new build",
-      "status": "Calibration"
+      "notes": "",
+      "status": "Active"
     },
     "ROG-206": {
       "notes": "Release validation replacement vehicle. Assign daily. Collect 1hr dc+data upload every morning. ",
       "status": "Active"
     },
     "ROG-207": {
-      "notes": "Monitor aint work [VBUILD-18019] [VBUILD-18207]",
-      "status": "Out of Service"
+      "notes": "",
+      "status": "Active"
     },
     "ROG-208": {
       "notes": "",
