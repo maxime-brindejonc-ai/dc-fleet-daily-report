@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-08-03T23:14:14.792904Z",
+  "last_run_utc": "2026-08-04T16:59:30.512733Z",
   "vehicles": {
     "ROG-101": {
       "notes": "front center camera shroud rework",
@@ -10,8 +10,8 @@
       "status": "Active"
     },
     "ROG-103": {
-      "notes": "oasis | Engine Malfunction VSTAB-10037",
-      "status": "Out of Service"
+      "notes": "oasis ",
+      "status": "Active"
     },
     "ROG-104": {
       "notes": "YOCTO",
@@ -42,8 +42,8 @@
       "status": "Active"
     },
     "ROG-111": {
-      "notes": "Camera shroud",
-      "status": "Out of Service"
+      "notes": "YOCTO",
+      "status": "Active"
     },
     "ROG-112": {
       "notes": "YOCTO",
@@ -166,7 +166,7 @@
       "status": "Out of Service"
     },
     "ROG-142": {
-      "notes": "oasis",
+      "notes": "oasis | front center camera quality VSTAB-10546",
       "status": "Out of Service"
     },
     "ROG-143": {
@@ -194,8 +194,8 @@
       "status": "Active"
     },
     "ROG-149": {
-      "notes": "oasis | Reworking windshield shroud",
-      "status": "Active"
+      "notes": "oasis | front center camera quality VSTAB-10547",
+      "status": "Out of Service"
     },
     "ROG-201": {
       "notes": "Yocto vehicle with Front LGIT cameras | AVP-52942 & VBUILD-15923",
