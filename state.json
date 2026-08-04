@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-08-04T16:59:30.512733Z",
+  "last_run_utc": "2026-08-04T18:00:29.219617Z",
   "vehicles": {
     "ROG-101": {
       "notes": "front center camera shroud rework",
@@ -26,8 +26,8 @@
       "status": "Active"
     },
     "ROG-107": {
-      "notes": "oasis | Reworking windshield shroud",
-      "status": "Active"
+      "notes": "oasis | eng malf/dash alerts VSTAB-10562",
+      "status": "Out of Service"
     },
     "ROG-108": {
       "notes": "[VSTAB-10155] Engine Malfunction",
