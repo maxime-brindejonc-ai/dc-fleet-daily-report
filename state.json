@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-08-04T18:00:29.219617Z",
+  "last_run_utc": "2026-08-04T23:14:06.962771Z",
   "vehicles": {
     "ROG-101": {
       "notes": "front center camera shroud rework",
@@ -14,8 +14,8 @@
       "status": "Active"
     },
     "ROG-104": {
-      "notes": "YOCTO",
-      "status": "Active"
+      "notes": "YOCTO | front center camera quality VSTAB-10548",
+      "status": "Out of Service"
     },
     "ROG-105": {
       "notes": "Mechanical Issue [VSTAB-976]",
@@ -26,8 +26,8 @@
       "status": "Active"
     },
     "ROG-107": {
-      "notes": "oasis | eng malf/dash alerts VSTAB-10562",
-      "status": "Out of Service"
+      "notes": "oasis",
+      "status": "Active"
     },
     "ROG-108": {
       "notes": "[VSTAB-10155] Engine Malfunction",
@@ -51,7 +51,7 @@
     },
     "ROG-113": {
       "notes": "Robotaxi Mule | data record issue VSTAB-10363",
-      "status": "Out of Service"
+      "status": "Active"
     },
     "ROG-114": {
       "notes": "",
@@ -158,8 +158,8 @@
       "status": "Active"
     },
     "ROG-140": {
-      "notes": "",
-      "status": "Active"
+      "notes": "Camera Image Quality [Front Center] VSTAB-10549",
+      "status": "Out of Service"
     },
     "ROG-141": {
       "notes": "oasis | post dealer work VBUILD-16471 collision icon",
@@ -218,8 +218,8 @@
       "status": "Active"
     },
     "ROG-206": {
-      "notes": "Release validation replacement vehicle. Assign daily. Collect 1hr dc+data upload every morning. ",
-      "status": "Active"
+      "notes": "Release validation replacement vehicle. Assign daily. Collect 1hr dc+data upload every morning. | Camera quality VSTAB-10549",
+      "status": "Out of Service"
     },
     "ROG-207": {
       "notes": "",
