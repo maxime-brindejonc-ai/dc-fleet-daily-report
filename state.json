@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-08-04T23:14:06.962771Z",
+  "last_run_utc": "2026-08-05T00:13:05.215632Z",
   "vehicles": {
     "ROG-101": {
       "notes": "front center camera shroud rework",
@@ -147,7 +147,7 @@
     },
     "ROG-137": {
       "notes": "Robotaxi Mule |  poor data VSTAB-9133",
-      "status": "Out of Service"
+      "status": "Active"
     },
     "ROG-138": {
       "notes": "oasis | Reworking windshield shroud | logPC fan inop (VSTAB-9481 & VBUILD-16239) | camera image quality front center VSTAB-9947",
