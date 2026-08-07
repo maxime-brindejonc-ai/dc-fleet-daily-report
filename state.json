@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-08-05T23:13:27.392055Z",
+  "last_run_utc": "2026-08-07T01:33:03.307229Z",
   "vehicles": {
     "ROG-101": {
       "notes": "front center camera shroud rework",
@@ -15,7 +15,7 @@
     },
     "ROG-104": {
       "notes": "YOCTO | front center camera quality VSTAB-10548",
-      "status": "Out of Service"
+      "status": "Active"
     },
     "ROG-105": {
       "notes": "Mechanical Issue [VSTAB-976]",
@@ -51,7 +51,7 @@
     },
     "ROG-113": {
       "notes": "Robotaxi Mule | data record issue VSTAB-10363",
-      "status": "Active"
+      "status": "Out of Service"
     },
     "ROG-114": {
       "notes": "",
@@ -147,7 +147,7 @@
     },
     "ROG-137": {
       "notes": "Robotaxi Mule |  poor data VSTAB-9133",
-      "status": "Active"
+      "status": "Out of Service"
     },
     "ROG-138": {
       "notes": "oasis | Reworking windshield shroud | logPC fan inop (VSTAB-9481 & VBUILD-16239) | camera image quality front center VSTAB-9947",
@@ -159,7 +159,7 @@
     },
     "ROG-140": {
       "notes": "Camera Image Quality [Front Center] VSTAB-10549",
-      "status": "Out of Service"
+      "status": "Active"
     },
     "ROG-141": {
       "notes": "oasis | post dealer work VBUILD-16471 collision icon",
@@ -195,7 +195,7 @@
     },
     "ROG-149": {
       "notes": "oasis | front center camera quality VSTAB-10547",
-      "status": "Out of Service"
+      "status": "Active"
     },
     "ROG-201": {
       "notes": "Yocto vehicle with Front LGIT cameras | AVP-52942 & VBUILD-15923",
@@ -234,8 +234,8 @@
       "status": "Active"
     },
     "ROG-210": {
-      "notes": "Gen2 new build",
-      "status": "Calibration"
+      "notes": "",
+      "status": "Active"
     },
     "ROG-211": {
       "notes": "Camera Image Quality [Front Center] VSTAB-10422",
