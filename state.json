@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-08-07T16:02:23.722163Z",
+  "last_run_utc": "2026-08-07T22:49:53.307309Z",
   "vehicles": {
     "ROG-101": {
       "notes": "front center camera shroud rework",
@@ -26,8 +26,8 @@
       "status": "Active"
     },
     "ROG-107": {
-      "notes": "oasis",
-      "status": "Active"
+      "notes": "oasis | VSTAB-10693",
+      "status": "Out of Service"
     },
     "ROG-108": {
       "notes": "[VSTAB-10155] Engine Malfunction",
@@ -166,7 +166,7 @@
       "status": "Out of Service"
     },
     "ROG-142": {
-      "notes": "oasis | minor accident, need to re-attach trim [VSTAB-10674]",
+      "notes": "oasis | minor accident, need to re-attach trim [VSTAB-10673]",
       "status": "Out of Service"
     },
     "ROG-143": {
@@ -218,8 +218,8 @@
       "status": "Active"
     },
     "ROG-206": {
-      "notes": "Release validation replacement vehicle. Assign daily. Collect 1hr dc+data upload every morning. | Camera quality VSTAB-10549",
-      "status": "Out of Service"
+      "notes": "Release validation replacement vehicle. Assign daily. Collect 1hr dc+data upload every morning. | Camera quality VSTAB-10550",
+      "status": "Validation"
     },
     "ROG-207": {
       "notes": "",
