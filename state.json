@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-08-07T01:33:03.307229Z",
+  "last_run_utc": "2026-08-07T16:02:23.722163Z",
   "vehicles": {
     "ROG-101": {
       "notes": "front center camera shroud rework",
@@ -166,12 +166,12 @@
       "status": "Out of Service"
     },
     "ROG-142": {
-      "notes": "oasis | front center camera quality VSTAB-10546",
-      "status": "Active"
+      "notes": "oasis | minor accident, need to re-attach trim [VSTAB-10674]",
+      "status": "Out of Service"
     },
     "ROG-143": {
-      "notes": "oasis | Transmission sound VSTAB-10049",
-      "status": "Calibration"
+      "notes": "oasis ",
+      "status": "Active"
     },
     "ROG-144": {
       "notes": "oasis ",
