@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-08-08T15:37:19.025255Z",
+  "last_run_utc": "2026-08-08T15:59:27.458198Z",
   "vehicles": {
     "ROG-101": {
       "notes": "front center camera shroud rework",
@@ -214,8 +214,8 @@
       "status": "Inactive"
     },
     "ROG-205": {
-      "notes": "",
-      "status": "Active"
+      "notes": "VSTAB-10570 Samsara not working",
+      "status": "Out of Service"
     },
     "ROG-206": {
       "notes": "Release validation replacement vehicle. Assign daily. Collect 1hr dc+data upload every morning. | Camera quality VSTAB-10550",
