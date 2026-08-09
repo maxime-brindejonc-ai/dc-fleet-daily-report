@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-08-08T22:40:04.993168Z",
+  "last_run_utc": "2026-08-09T15:39:36.609501Z",
   "vehicles": {
     "ROG-101": {
       "notes": "front center camera shroud rework",
@@ -159,7 +159,7 @@
     },
     "ROG-140": {
       "notes": "Camera Image Quality [Front Center] VSTAB-10549",
-      "status": "Out of Service"
+      "status": "Active"
     },
     "ROG-141": {
       "notes": "oasis | post dealer work VBUILD-16471 collision icon",
@@ -167,7 +167,7 @@
     },
     "ROG-142": {
       "notes": "oasis | minor accident, need to re-attach trim [VSTAB-10673]",
-      "status": "Out of Service"
+      "status": "Active"
     },
     "ROG-143": {
       "notes": "oasis ",
@@ -187,7 +187,7 @@
     },
     "ROG-147": {
       "notes": "oasis | Reworking windshield shroud",
-      "status": "Active"
+      "status": "Out of Service"
     },
     "ROG-148": {
       "notes": "oasis | Reworking windshield shroud",
