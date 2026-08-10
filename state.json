@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-08-10T16:05:12.142540Z",
+  "last_run_utc": "2026-08-10T22:51:27.924677Z",
   "vehicles": {
     "ROG-101": {
       "notes": "front center camera shroud rework",
@@ -26,7 +26,7 @@
       "status": "Active"
     },
     "ROG-107": {
-      "notes": "oasis | VSTAB-10693",
+      "notes": "loose battery terminal [VBUILD-18492]",
       "status": "Out of Service"
     },
     "ROG-108": {
@@ -62,8 +62,8 @@
       "status": "Active"
     },
     "ROG-116": {
-      "notes": "YOCTO ",
-      "status": "Active"
+      "notes": "front center image quality [VSTAB-10778]",
+      "status": "Out of Service"
     },
     "ROG-117": {
       "notes": "",
@@ -82,8 +82,8 @@
       "status": "Active"
     },
     "ROG-121": {
-      "notes": "front center camera shroud rework",
-      "status": "Active"
+      "notes": "front center camera quallity [VSTAB-10777]",
+      "status": "Out of Service"
     },
     "ROG-122": {
       "notes": "Oasis",
@@ -118,7 +118,7 @@
       "status": "Active"
     },
     "ROG-130": {
-      "notes": "CVT Shudder [VSTAB-9989]",
+      "notes": "front center image quality [VSTAB-9945]",
       "status": "Out of Service"
     },
     "ROG-131": {
@@ -130,7 +130,7 @@
       "status": "Active"
     },
     "ROG-133": {
-      "notes": "",
+      "notes": "Release branch validation vehicle. Assign daily. Collect 1hr dc+data upload every morning.",
       "status": "Active"
     },
     "ROG-134": {
@@ -162,7 +162,7 @@
       "status": "Active"
     },
     "ROG-141": {
-      "notes": "oasis | post dealer work VBUILD-16471 collision icon",
+      "notes": "post dealer work VBUILD-16471 collision icon",
       "status": "Out of Service"
     },
     "ROG-142": {
@@ -178,8 +178,8 @@
       "status": "Active"
     },
     "ROG-145": {
-      "notes": "oasis | rough idle VSTAB-10364",
-      "status": "Out of Service"
+      "notes": "oasis",
+      "status": "Active"
     },
     "ROG-146": {
       "notes": "front center camera shroud rework",
@@ -187,7 +187,7 @@
     },
     "ROG-147": {
       "notes": "oasis | CVT Power Reduced warning [VBUILD-10735]",
-      "status": "Out of Service"
+      "status": "Active"
     },
     "ROG-148": {
       "notes": "oasis | Reworking windshield shroud",
@@ -218,12 +218,12 @@
       "status": "Out of Service"
     },
     "ROG-206": {
-      "notes": "Release validation replacement vehicle. Assign daily. Collect 1hr dc+data upload every morning. | Camera quality VSTAB-10550",
+      "notes": "Camera quality VSTAB-10550",
       "status": "Validation"
     },
     "ROG-207": {
-      "notes": "",
-      "status": "Active"
+      "notes": "front center camera quality [VSTAB-10779]",
+      "status": "Out of Service"
     },
     "ROG-208": {
       "notes": "",
