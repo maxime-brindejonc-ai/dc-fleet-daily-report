@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-08-09T15:39:36.609501Z",
+  "last_run_utc": "2026-08-10T16:05:12.142540Z",
   "vehicles": {
     "ROG-101": {
       "notes": "front center camera shroud rework",
@@ -118,7 +118,7 @@
       "status": "Active"
     },
     "ROG-130": {
-      "notes": "CVT shudder VSTAB-9989",
+      "notes": "CVT Shudder [VSTAB-9989]",
       "status": "Out of Service"
     },
     "ROG-131": {
@@ -186,7 +186,7 @@
       "status": "Active"
     },
     "ROG-147": {
-      "notes": "oasis | Reworking windshield shroud",
+      "notes": "oasis | CVT Power Reduced warning [VBUILD-10735]",
       "status": "Out of Service"
     },
     "ROG-148": {
@@ -207,7 +207,7 @@
     },
     "ROG-203": {
       "notes": "",
-      "status": "Out of Service"
+      "status": "Active"
     },
     "ROG-204": {
       "notes": "vehicle OS  -- special project/ will not be DC fleet",
