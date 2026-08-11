@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-08-11T17:08:23.646236Z",
+  "last_run_utc": "2026-08-11T22:56:05.360379Z",
   "vehicles": {
     "ROG-101": {
       "notes": "front center camera shroud rework",
@@ -26,8 +26,8 @@
       "status": "Active"
     },
     "ROG-107": {
-      "notes": "loose battery terminal [VBUILD-18492]",
-      "status": "Out of Service"
+      "notes": "battery terminal secured, waiting on hold-down parts [VBUILD-18492]",
+      "status": "Active"
     },
     "ROG-108": {
       "notes": "[VBUILD-17864] Engine Malfunction",
@@ -42,7 +42,7 @@
       "status": "Active"
     },
     "ROG-111": {
-      "notes": "YOCTO",
+      "notes": "BATTERY ISSSUE VSTAB-10817",
       "status": "Active"
     },
     "ROG-112": {
@@ -214,12 +214,12 @@
       "status": "Inactive"
     },
     "ROG-205": {
-      "notes": "VBUILD-18247 Samsara not working",
-      "status": "Out of Service"
+      "notes": "",
+      "status": "Active"
     },
     "ROG-206": {
-      "notes": "Camera quality VSTAB-10550",
-      "status": "Validation"
+      "notes": "",
+      "status": "Active"
     },
     "ROG-207": {
       "notes": "front center camera quality [VSTAB-10779]",
