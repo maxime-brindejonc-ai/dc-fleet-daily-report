@@ -1,13 +1,13 @@
 {
-  "last_run_utc": "2026-08-11T16:05:38.224269Z",
+  "last_run_utc": "2026-08-11T17:08:23.646236Z",
   "vehicles": {
     "ROG-101": {
       "notes": "front center camera shroud rework",
       "status": "Active"
     },
     "ROG-102": {
-      "notes": "",
-      "status": "Active"
+      "notes": "front center image quality [VSTAB-10825]",
+      "status": "Out of Service"
     },
     "ROG-103": {
       "notes": "oasis ",
@@ -70,8 +70,8 @@
       "status": "Inactive"
     },
     "ROG-118": {
-      "notes": "YOCTO",
-      "status": "Active"
+      "notes": "YOCTO front center image quality [VSTAB-10826]",
+      "status": "Out of Service"
     },
     "ROG-119": {
       "notes": "front center camera shroud rework v2",
