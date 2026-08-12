@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-08-11T22:56:05.360379Z",
+  "last_run_utc": "2026-08-12T16:03:49.560307Z",
   "vehicles": {
     "ROG-101": {
       "notes": "front center camera shroud rework",
@@ -131,7 +131,7 @@
     },
     "ROG-133": {
       "notes": "Release branch validation vehicle. Assign daily. Collect 1hr dc+data upload every morning.",
-      "status": "Active"
+      "status": "Out of Service"
     },
     "ROG-134": {
       "notes": "front center camera shroud rework v2 Mabel",
