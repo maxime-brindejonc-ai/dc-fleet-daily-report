@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-08-12T22:53:55.331449Z",
+  "last_run_utc": "2026-08-13T16:03:57.658902Z",
   "vehicles": {
     "ROG-101": {
       "notes": "front center camera shroud rework",
@@ -31,7 +31,7 @@
     },
     "ROG-108": {
       "notes": "[VBUILD-17864] Engine Malfunction",
-      "status": "Calibration"
+      "status": "Out of Service"
     },
     "ROG-109": {
       "notes": "YOCTO | VSTAB-10857 iceoryx2 exceeds_max_borrows",
@@ -63,7 +63,7 @@
     },
     "ROG-116": {
       "notes": "front center image quality [VSTAB-10778]",
-      "status": "Out of Service"
+      "status": "Validation"
     },
     "ROG-117": {
       "notes": "",
@@ -83,7 +83,7 @@
     },
     "ROG-121": {
       "notes": "front center camera quallity [VSTAB-10777]",
-      "status": "Out of Service"
+      "status": "Validation"
     },
     "ROG-122": {
       "notes": "Oasis",
