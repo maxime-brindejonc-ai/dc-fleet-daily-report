@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-08-13T16:03:57.658902Z",
+  "last_run_utc": "2026-08-13T17:07:15.701123Z",
   "vehicles": {
     "ROG-101": {
       "notes": "front center camera shroud rework",
@@ -34,8 +34,8 @@
       "status": "Out of Service"
     },
     "ROG-109": {
-      "notes": "YOCTO | VSTAB-10857 iceoryx2 exceeds_max_borrows",
-      "status": "Out of Service"
+      "notes": "YOCTO",
+      "status": "Active"
     },
     "ROG-110": {
       "notes": "Camera Image Quality [Front Center] VSTAB-9958",
