@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-08-14T15:58:33.764559Z",
+  "last_run_utc": "2026-08-14T23:32:21.981670Z",
   "vehicles": {
     "ROG-101": {
       "notes": "front center camera shroud rework",
@@ -203,7 +203,7 @@
     },
     "ROG-202": {
       "notes": "poor quality data VSTAB-9574",
-      "status": "Out of Service"
+      "status": "Active"
     },
     "ROG-203": {
       "notes": "",
