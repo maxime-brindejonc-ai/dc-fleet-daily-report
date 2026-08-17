@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-08-17T15:33:01.227838Z",
+  "last_run_utc": "2026-08-17T22:34:49.521801Z",
   "vehicles": {
     "ROG-101": {
       "notes": "front center camera shroud rework",
@@ -62,8 +62,8 @@
       "status": "Active"
     },
     "ROG-116": {
-      "notes": "front center image quality [VSTAB-10778]",
-      "status": "Validation"
+      "notes": "",
+      "status": "Active"
     },
     "ROG-117": {
       "notes": "",
@@ -82,8 +82,8 @@
       "status": "Active"
     },
     "ROG-121": {
-      "notes": "front center camera quallity [VSTAB-10777]",
-      "status": "Validation"
+      "notes": "",
+      "status": "Active"
     },
     "ROG-122": {
       "notes": "Oasis",
@@ -202,7 +202,7 @@
       "status": "Build"
     },
     "ROG-202": {
-      "notes": "poor quality data VSTAB-9574",
+      "notes": "",
       "status": "Active"
     },
     "ROG-203": {
