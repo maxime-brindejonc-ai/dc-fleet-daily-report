@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-08-17T22:55:47.673957Z",
+  "last_run_utc": "2026-08-17T23:32:35.547156Z",
   "vehicles": {
     "ROG-101": {
       "notes": "front center camera shroud rework",
@@ -39,7 +39,7 @@
     },
     "ROG-110": {
       "notes": "NIC fan VSTAB-10995",
-      "status": "Out of Service"
+      "status": "Active"
     },
     "ROG-111": {
       "notes": "",
