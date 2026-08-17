@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-08-16T22:31:51.736218Z",
+  "last_run_utc": "2026-08-17T15:33:01.227838Z",
   "vehicles": {
     "ROG-101": {
       "notes": "front center camera shroud rework",
@@ -30,7 +30,7 @@
       "status": "Active"
     },
     "ROG-108": {
-      "notes": "[VBUILD-17864] Engine Malfunction",
+      "notes": "Shroud hazing, post-dealer calibration postponed [VBUILD-18620]",
       "status": "Out of Service"
     },
     "ROG-109": {
