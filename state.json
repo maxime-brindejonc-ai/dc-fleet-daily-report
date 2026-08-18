@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-08-17T23:32:35.547156Z",
+  "last_run_utc": "2026-08-18T15:39:25.071395Z",
   "vehicles": {
     "ROG-101": {
       "notes": "front center camera shroud rework",
@@ -22,8 +22,8 @@
       "status": "Inactive"
     },
     "ROG-106": {
-      "notes": "YOCTO Vehicle | shroud rework",
-      "status": "Active"
+      "notes": "YOCTO Vehicle | shroud rework | https://appliedintuition.atlassian.net/browse/VSTAB-11058",
+      "status": "Out of Service"
     },
     "ROG-107": {
       "notes": "battery terminal secured, waiting on hold-down parts [VBUILD-18492]",
@@ -31,7 +31,7 @@
     },
     "ROG-108": {
       "notes": "Shroud hazing, post-dealer calibration postponed [VBUILD-18620]",
-      "status": "Out of Service"
+      "status": "Calibration"
     },
     "ROG-109": {
       "notes": "YOCTO",
@@ -62,16 +62,16 @@
       "status": "Active"
     },
     "ROG-116": {
-      "notes": "",
-      "status": "Active"
+      "notes": "- VSTAB-11060",
+      "status": "Out of Service"
     },
     "ROG-117": {
       "notes": "",
       "status": "Inactive"
     },
     "ROG-118": {
-      "notes": "YOCTO front center image quality [VSTAB-10826]",
-      "status": "Out of Service"
+      "notes": "",
+      "status": "Active"
     },
     "ROG-119": {
       "notes": "front center camera shroud rework v2",
@@ -130,7 +130,7 @@
       "status": "Active"
     },
     "ROG-133": {
-      "notes": "goofy ahh steering, currently at dealer [VBUILD-18531]",
+      "notes": "front strut replacement, currently at dealer [VBUILD-18531]",
       "status": "Out of Service"
     },
     "ROG-134": {
@@ -159,7 +159,7 @@
     },
     "ROG-140": {
       "notes": "Camera Image Quality [Front Center] VSTAB-10549",
-      "status": "Active"
+      "status": "Out of Service"
     },
     "ROG-141": {
       "notes": "post dealer work VBUILD-16471 collision icon",
