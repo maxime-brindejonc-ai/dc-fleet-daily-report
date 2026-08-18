@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-08-18T16:00:34.206290Z",
+  "last_run_utc": "2026-08-18T16:43:49.284263Z",
   "vehicles": {
     "ROG-101": {
       "notes": "front center camera shroud rework",
@@ -23,7 +23,7 @@
     },
     "ROG-106": {
       "notes": "VSTAB-11058 software re-deploy",
-      "status": "Out of Service"
+      "status": "Active"
     },
     "ROG-107": {
       "notes": "battery terminal secured, waiting on hold-down parts [VBUILD-18492]",
@@ -63,7 +63,7 @@
     },
     "ROG-116": {
       "notes": "YOCTO Vehicle | shroud rework | - VSTAB-11060",
-      "status": "Out of Service"
+      "status": "Active"
     },
     "ROG-117": {
       "notes": "",
@@ -158,8 +158,8 @@
       "status": "Active"
     },
     "ROG-140": {
-      "notes": "Software Redeploy VSTAB-11056",
-      "status": "Out of Service"
+      "notes": "",
+      "status": "Active"
     },
     "ROG-141": {
       "notes": "post dealer work VBUILD-16471 collision icon",
