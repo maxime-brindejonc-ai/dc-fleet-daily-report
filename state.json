@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-08-18T15:39:25.071395Z",
+  "last_run_utc": "2026-08-18T16:00:34.206290Z",
   "vehicles": {
     "ROG-101": {
       "notes": "front center camera shroud rework",
@@ -22,7 +22,7 @@
       "status": "Inactive"
     },
     "ROG-106": {
-      "notes": "YOCTO Vehicle | shroud rework | https://appliedintuition.atlassian.net/browse/VSTAB-11058",
+      "notes": "VSTAB-11058 software re-deploy",
       "status": "Out of Service"
     },
     "ROG-107": {
@@ -62,7 +62,7 @@
       "status": "Active"
     },
     "ROG-116": {
-      "notes": "- VSTAB-11060",
+      "notes": "YOCTO Vehicle | shroud rework | - VSTAB-11060",
       "status": "Out of Service"
     },
     "ROG-117": {
@@ -158,7 +158,7 @@
       "status": "Active"
     },
     "ROG-140": {
-      "notes": "Camera Image Quality [Front Center] VSTAB-10549",
+      "notes": "Software Redeploy VSTAB-11056",
       "status": "Out of Service"
     },
     "ROG-141": {
