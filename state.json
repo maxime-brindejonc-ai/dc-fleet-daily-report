@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-08-19T16:42:16.591902Z",
+  "last_run_utc": "2026-08-19T22:35:22.030011Z",
   "vehicles": {
     "ROG-101": {
       "notes": "front center camera shroud rework",
@@ -46,8 +46,8 @@
       "status": "Active"
     },
     "ROG-112": {
-      "notes": "YOCTO",
-      "status": "Active"
+      "notes": "YOCTO | Missing WEX card",
+      "status": "Out of Service"
     },
     "ROG-113": {
       "notes": "Robotaxi Mule | data record issue VSTAB-10363",
@@ -203,7 +203,7 @@
     },
     "ROG-202": {
       "notes": "",
-      "status": "Active"
+      "status": "Out of Service"
     },
     "ROG-203": {
       "notes": "",
