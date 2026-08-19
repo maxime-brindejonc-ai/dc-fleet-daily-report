@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-08-18T22:35:32.216559Z",
+  "last_run_utc": "2026-08-19T15:39:37.718155Z",
   "vehicles": {
     "ROG-101": {
       "notes": "front center camera shroud rework",
@@ -7,7 +7,7 @@
     },
     "ROG-102": {
       "notes": "front center image quality [VSTAB-10825]",
-      "status": "Out of Service"
+      "status": "Active"
     },
     "ROG-103": {
       "notes": "oasis ",
@@ -223,7 +223,7 @@
     },
     "ROG-207": {
       "notes": "front center camera quality [VSTAB-10779]",
-      "status": "Out of Service"
+      "status": "Active"
     },
     "ROG-208": {
       "notes": "Airbag Light VSTAB-11066",
