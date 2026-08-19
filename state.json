@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-08-19T15:39:37.718155Z",
+  "last_run_utc": "2026-08-19T16:42:16.591902Z",
   "vehicles": {
     "ROG-101": {
       "notes": "front center camera shroud rework",
@@ -26,8 +26,8 @@
       "status": "Active"
     },
     "ROG-107": {
-      "notes": "battery terminal secured, waiting on hold-down parts [VBUILD-18492]",
-      "status": "Active"
+      "notes": "dash alert - VSTAB-10663",
+      "status": "Out of Service"
     },
     "ROG-108": {
       "notes": "Shroud hazing, post-dealer calibration postponed [VBUILD-18620]",
