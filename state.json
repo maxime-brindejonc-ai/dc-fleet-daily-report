@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-08-20T15:41:41.996903Z",
+  "last_run_utc": "2026-08-20T22:38:30.596631Z",
   "vehicles": {
     "ROG-101": {
       "notes": "front center camera shroud rework",
@@ -130,7 +130,7 @@
       "status": "Active"
     },
     "ROG-133": {
-      "notes": "front strut replacement, currently at dealer [VBUILD-18531]",
+      "notes": "front strut replacement, currently at dealer VSTAB-10794",
       "status": "Out of Service"
     },
     "ROG-134": {
@@ -250,8 +250,8 @@
       "status": "Active"
     },
     "ROG-214": {
-      "notes": "",
-      "status": "Active"
+      "notes": "rear_right camera issue | VSTAB-11138",
+      "status": "Out of Service"
     },
     "ROG-215": {
       "notes": "Registration expired 6/2/2026 VSTAB-9565",
