@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-08-21T22:35:38.888209Z",
+  "last_run_utc": "2026-08-22T15:29:04.117693Z",
   "vehicles": {
     "ROG-101": {
       "notes": "front center camera shroud rework",
@@ -206,8 +206,8 @@
       "status": "Active"
     },
     "ROG-203": {
-      "notes": "",
-      "status": "Active"
+      "notes": "Front camera image quality issue | VSTAB-11179",
+      "status": "Out of Service"
     },
     "ROG-204": {
       "notes": "vehicle OS  -- special project/ will not be DC fleet",
@@ -238,8 +238,8 @@
       "status": "Active"
     },
     "ROG-211": {
-      "notes": "Camera Image Quality [Front Center] VSTAB-10422",
-      "status": "Active"
+      "notes": "USB hub VSTAB-11207",
+      "status": "Out of Service"
     },
     "ROG-212": {
       "notes": "Expired registration",
