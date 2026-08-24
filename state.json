@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-08-24T16:07:05.289392Z",
+  "last_run_utc": "2026-08-24T22:37:59.942758Z",
   "vehicles": {
     "ROG-101": {
       "notes": "front center camera shroud rework",
@@ -218,7 +218,7 @@
       "status": "Active"
     },
     "ROG-206": {
-      "notes": "",
+      "notes": "Collect 1hr of dc in the morning and upload disks asap.",
       "status": "Active"
     },
     "ROG-207": {
