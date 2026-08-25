@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-08-25T15:52:01.446623Z",
+  "last_run_utc": "2026-08-25T22:38:09.116580Z",
   "vehicles": {
     "ROG-101": {
       "notes": "front center camera shroud rework",
@@ -238,8 +238,8 @@
       "status": "Active"
     },
     "ROG-211": {
-      "notes": "USB hub VSTAB-11207",
-      "status": "Out of Service"
+      "notes": "",
+      "status": "Active"
     },
     "ROG-212": {
       "notes": "Expired registration",
