@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-08-25T22:38:09.116580Z",
+  "last_run_utc": "2026-08-26T16:37:01.154963Z",
   "vehicles": {
     "ROG-101": {
       "notes": "front center camera shroud rework",
@@ -30,7 +30,7 @@
       "status": "Out of Service"
     },
     "ROG-108": {
-      "notes": "Shroud hazing, post-dealer calibration postponed [VBUILD-18620]",
+      "notes": "Shroud hazing, post-dealer calibration [VBUILD-18620]",
       "status": "Calibration"
     },
     "ROG-109": {
@@ -51,7 +51,7 @@
     },
     "ROG-113": {
       "notes": "Robotaxi Mule",
-      "status": "Active"
+      "status": "Verification"
     },
     "ROG-114": {
       "notes": "",
@@ -147,7 +147,7 @@
     },
     "ROG-137": {
       "notes": "Robotaxi Mule | VSTAB-9133 | Lidars VSTAB-11153",
-      "status": "Out of Service"
+      "status": "Active"
     },
     "ROG-138": {
       "notes": "oasis | Reworking windshield shroud | logPC fan inop (VSTAB-9481 & VBUILD-16239) | camera image quality front center VSTAB-9947",
@@ -170,8 +170,8 @@
       "status": "Active"
     },
     "ROG-143": {
-      "notes": "oasis ",
-      "status": "Active"
+      "notes": "oasis | front camera quality issue VSTAB-11073",
+      "status": "Out of Service"
     },
     "ROG-144": {
       "notes": "oasis ",
@@ -207,7 +207,7 @@
     },
     "ROG-203": {
       "notes": "Front camera image quality issue | VSTAB-11179",
-      "status": "Out of Service"
+      "status": "Active"
     },
     "ROG-204": {
       "notes": "vehicle OS  -- special project/ will not be DC fleet",
@@ -227,7 +227,7 @@
     },
     "ROG-208": {
       "notes": "Airbag Light VSTAB-11066",
-      "status": "Out of Service"
+      "status": "Calibration"
     },
     "ROG-209": {
       "notes": "",
