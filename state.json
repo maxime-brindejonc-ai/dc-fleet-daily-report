@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-08-26T16:37:01.154963Z",
+  "last_run_utc": "2026-08-27T03:05:19.665430Z",
   "vehicles": {
     "ROG-101": {
       "notes": "front center camera shroud rework",
@@ -30,8 +30,8 @@
       "status": "Out of Service"
     },
     "ROG-108": {
-      "notes": "Shroud hazing, post-dealer calibration [VBUILD-18620]",
-      "status": "Calibration"
+      "notes": "",
+      "status": "Active"
     },
     "ROG-109": {
       "notes": "YOCTO",
@@ -42,8 +42,8 @@
       "status": "Active"
     },
     "ROG-111": {
-      "notes": "Check Engine Light VSTAB-11246",
-      "status": "Out of Service"
+      "notes": "",
+      "status": "Active"
     },
     "ROG-112": {
       "notes": "YOCTO | Missing WEX card",
@@ -51,7 +51,7 @@
     },
     "ROG-113": {
       "notes": "Robotaxi Mule",
-      "status": "Verification"
+      "status": "Out of Service"
     },
     "ROG-114": {
       "notes": "",
@@ -71,7 +71,7 @@
     },
     "ROG-118": {
       "notes": "",
-      "status": "Active"
+      "status": "Out of Service"
     },
     "ROG-119": {
       "notes": "front center camera shroud rework v2",
@@ -207,7 +207,7 @@
     },
     "ROG-203": {
       "notes": "Front camera image quality issue | VSTAB-11179",
-      "status": "Active"
+      "status": "Calibration"
     },
     "ROG-204": {
       "notes": "vehicle OS  -- special project/ will not be DC fleet",
