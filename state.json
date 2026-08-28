@@ -1,9 +1,9 @@
 {
-  "last_run_utc": "2026-08-28T00:21:34.770470Z",
+  "last_run_utc": "2026-08-28T00:50:58.491759Z",
   "vehicles": {
     "ROG-101": {
-      "notes": "front center camera shroud rework",
-      "status": "Active"
+      "notes": "Camera Image Quality [Front Center] ",
+      "status": "Out of Service"
     },
     "ROG-102": {
       "notes": "front center image quality [VSTAB-10825]",
@@ -38,8 +38,8 @@
       "status": "Active"
     },
     "ROG-110": {
-      "notes": "NIC fan VSTAB-10995",
-      "status": "Active"
+      "notes": "Camera Image Quality [Front Center] ",
+      "status": "Out of Service"
     },
     "ROG-111": {
       "notes": "",
@@ -110,8 +110,8 @@
       "status": "Validation"
     },
     "ROG-128": {
-      "notes": "oasis | Rework windshield shroud",
-      "status": "Active"
+      "notes": "oasis | camera quality image ",
+      "status": "Out of Service"
     },
     "ROG-129": {
       "notes": "YOCTO Vehicle | front center camera shroud rework",
@@ -122,12 +122,12 @@
       "status": "Active"
     },
     "ROG-131": {
-      "notes": "Alex M static testing",
-      "status": "Active"
+      "notes": "Camera Image Quality [Front Center] ",
+      "status": "Out of Service"
     },
     "ROG-132": {
-      "notes": "oasis ",
-      "status": "Active"
+      "notes": "oasis | camera quality image ",
+      "status": "Out of Service"
     },
     "ROG-133": {
       "notes": "front strut replacement, currently at dealer VSTAB-10794",
@@ -158,8 +158,8 @@
       "status": "Active"
     },
     "ROG-140": {
-      "notes": "",
-      "status": "Active"
+      "notes": "Camera Image Quality [Front Center] ",
+      "status": "Out of Service"
     },
     "ROG-141": {
       "notes": "post dealer work VBUILD-16471 collision icon",
@@ -186,12 +186,12 @@
       "status": "Active"
     },
     "ROG-147": {
-      "notes": "oasis | CVT Power Reduced warning [VBUILD-10735]",
-      "status": "Active"
+      "notes": "oasis | camera quality image ",
+      "status": "Out of Service"
     },
     "ROG-148": {
-      "notes": "oasis | Reworking windshield shroud",
-      "status": "Active"
+      "notes": "oasis | front camera quality issue",
+      "status": "Out of Service"
     },
     "ROG-149": {
       "notes": "oasis | front center camera quality VSTAB-10547",
@@ -230,8 +230,8 @@
       "status": "Active"
     },
     "ROG-209": {
-      "notes": "",
-      "status": "Active"
+      "notes": "Camera Image Quality [Front Center] ",
+      "status": "Out of Service"
     },
     "ROG-210": {
       "notes": "",
