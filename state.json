@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-08-28T06:04:42.853559Z",
+  "last_run_utc": "2026-08-29T00:00:01.177581Z",
   "vehicles": {
     "ROG-101": {
       "notes": "Camera Image Quality [Front Center] ",
@@ -11,7 +11,7 @@
     },
     "ROG-103": {
       "notes": "oasis | mounting issues VSTAB-11270",
-      "status": "Out of Service"
+      "status": "Active"
     },
     "ROG-104": {
       "notes": "YOCTO | front center camera quality VSTAB-10548",
@@ -62,8 +62,8 @@
       "status": "Active"
     },
     "ROG-116": {
-      "notes": "YOCTO Vehicle | shroud rework | - VSTAB-11060",
-      "status": "Active"
+      "notes": "YOCTO Vehicle | Zekun testing until 5p 8/28",
+      "status": "Out of Service"
     },
     "ROG-117": {
       "notes": "",
@@ -119,7 +119,7 @@
     },
     "ROG-130": {
       "notes": "front center image quality [VSTAB-9945]",
-      "status": "Active"
+      "status": "Calibration"
     },
     "ROG-131": {
       "notes": "Camera Image Quality [Front Center] ",
@@ -142,8 +142,8 @@
       "status": "Active"
     },
     "ROG-136": {
-      "notes": "oasis",
-      "status": "Active"
+      "notes": "oasis | camera quality image ",
+      "status": "Out of Service"
     },
     "ROG-137": {
       "notes": "Robotaxi Mule | VSTAB-9133 | Lidars VSTAB-11153",
@@ -174,7 +174,7 @@
       "status": "Active"
     },
     "ROG-144": {
-      "notes": "oasis ",
+      "notes": "oasis |",
       "status": "Active"
     },
     "ROG-145": {
