@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-08-29T18:20:09.051093Z",
+  "last_run_utc": "2026-08-30T18:33:40.270300Z",
   "vehicles": {
     "ROG-101": {
       "notes": "Camera Image Quality [Front Center] ",
@@ -239,7 +239,7 @@
     },
     "ROG-211": {
       "notes": "Speakerphone VBUILD-19336",
-      "status": "Active"
+      "status": "Out of Service"
     },
     "ROG-212": {
       "notes": "Expired registration",
