@@ -1,8 +1,8 @@
 {
-  "last_run_utc": "2026-08-31T20:46:00.564318Z",
+  "last_run_utc": "2026-09-01T01:14:24.650489Z",
   "vehicles": {
     "ROG-101": {
-      "notes": "Camera Image Quality [Front Center] ",
+      "notes": "Camera Image Quality [Front Center] VSTAB 11374",
       "status": "Out of Service"
     },
     "ROG-102": {
@@ -31,14 +31,14 @@
     },
     "ROG-108": {
       "notes": "USB hub needs to be replaced | VSTAB-11349",
-      "status": "Out of Service"
+      "status": "Active"
     },
     "ROG-109": {
       "notes": "YOCTO",
       "status": "Active"
     },
     "ROG-110": {
-      "notes": "Camera Image Quality [Front Center] ",
+      "notes": "Camera Image Quality [Front Center] VSTAB 11375",
       "status": "Out of Service"
     },
     "ROG-111": {
@@ -238,7 +238,7 @@
       "status": "Active"
     },
     "ROG-211": {
-      "notes": "Speakerphone VBUILD-19336",
+      "notes": "Speakerphone VBUILD-19336 and rear left tire flat with nail",
       "status": "Out of Service"
     },
     "ROG-212": {
