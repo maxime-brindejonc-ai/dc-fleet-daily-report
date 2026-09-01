@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-09-01T01:47:44.036822Z",
+  "last_run_utc": "2026-09-01T18:21:52.327299Z",
   "vehicles": {
     "ROG-101": {
       "notes": "Camera Image Quality [Front Center] VSTAB 11374",
@@ -38,16 +38,16 @@
       "status": "Active"
     },
     "ROG-110": {
-      "notes": "Camera Image Quality [Front Center] VSTAB 11375",
-      "status": "Out of Service"
+      "notes": "",
+      "status": "Active"
     },
     "ROG-111": {
       "notes": "",
       "status": "Active"
     },
     "ROG-112": {
-      "notes": "YOCTO | Missing WEX card",
-      "status": "Out of Service"
+      "notes": "",
+      "status": "Active"
     },
     "ROG-113": {
       "notes": "Robotaxi Mule",
@@ -118,7 +118,7 @@
       "status": "Active"
     },
     "ROG-130": {
-      "notes": "front center image quality [VSTAB-9945]",
+      "notes": "",
       "status": "Calibration"
     },
     "ROG-131": {
@@ -138,8 +138,8 @@
       "status": "Active"
     },
     "ROG-135": {
-      "notes": "Oasis | Michigan Based Vehicle.",
-      "status": "Active"
+      "notes": "Oasis | Michigan Based Vehicle| Camera image quality VSTAB 11419",
+      "status": "Out of Service"
     },
     "ROG-136": {
       "notes": "oasis | camera quality image ",
