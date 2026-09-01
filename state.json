@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-09-01T01:14:24.650489Z",
+  "last_run_utc": "2026-09-01T01:47:44.036822Z",
   "vehicles": {
     "ROG-101": {
       "notes": "Camera Image Quality [Front Center] VSTAB 11374",
@@ -154,8 +154,8 @@
       "status": "Active"
     },
     "ROG-139": {
-      "notes": "VSTAB LIDAR VSTAB-11404",
-      "status": "Calibration"
+      "notes": "",
+      "status": "Active"
     },
     "ROG-140": {
       "notes": "Camera Image Quality [Front Center] ",
