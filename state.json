@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-09-01T18:21:52.327299Z",
+  "last_run_utc": "2026-09-02T00:01:16.816956Z",
   "vehicles": {
     "ROG-101": {
       "notes": "Camera Image Quality [Front Center] VSTAB 11374",
@@ -15,7 +15,7 @@
     },
     "ROG-104": {
       "notes": "YOCTO | front center camera quality VSTAB-10548",
-      "status": "Active"
+      "status": "Calibration"
     },
     "ROG-105": {
       "notes": "Mechanical Issue [VSTAB-976]",
@@ -51,7 +51,7 @@
     },
     "ROG-113": {
       "notes": "Robotaxi Mule",
-      "status": "Out of Service"
+      "status": "Calibration"
     },
     "ROG-114": {
       "notes": "",
@@ -119,7 +119,7 @@
     },
     "ROG-130": {
       "notes": "",
-      "status": "Calibration"
+      "status": "Active"
     },
     "ROG-131": {
       "notes": "Camera Image Quality [Front Center] ",
