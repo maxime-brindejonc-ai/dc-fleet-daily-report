@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-09-02T00:01:16.816956Z",
+  "last_run_utc": "2026-09-02T18:33:23.817887Z",
   "vehicles": {
     "ROG-101": {
       "notes": "Camera Image Quality [Front Center] VSTAB 11374",
@@ -10,7 +10,7 @@
       "status": "Active"
     },
     "ROG-103": {
-      "notes": "oasis | mounting issues VSTAB-11270",
+      "notes": "oasis | mounting issues VSTAB-11270 ",
       "status": "Active"
     },
     "ROG-104": {
@@ -239,7 +239,7 @@
     },
     "ROG-211": {
       "notes": "Speakerphone VBUILD-19336 and rear left tire flat with nail",
-      "status": "Out of Service"
+      "status": "Active"
     },
     "ROG-212": {
       "notes": "Expired registration",
@@ -255,7 +255,7 @@
     },
     "ROG-215": {
       "notes": "Registration expired 6/2/2026 VSTAB-9565",
-      "status": "Inactive"
+      "status": "Active"
     }
   }
 }
