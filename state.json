@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-09-03T00:05:14.401777Z",
+  "last_run_utc": "2026-09-03T18:30:24.337560Z",
   "vehicles": {
     "ROG-101": {
       "notes": "Camera Image Quality [Front Center] VSTAB 11374",
@@ -35,7 +35,7 @@
     },
     "ROG-109": {
       "notes": "YOCTO",
-      "status": "Active"
+      "status": "Calibration"
     },
     "ROG-110": {
       "notes": "",
@@ -131,7 +131,7 @@
     },
     "ROG-133": {
       "notes": "",
-      "status": "Calibration"
+      "status": "Active"
     },
     "ROG-134": {
       "notes": "front center camera shroud rework v2 Mabel",
@@ -255,7 +255,7 @@
     },
     "ROG-215": {
       "notes": "Registration expired 6/2/2026 VSTAB-9565",
-      "status": "Active"
+      "status": "Out of Service"
     }
   }
 }
