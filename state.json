@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-09-03T18:30:24.337560Z",
+  "last_run_utc": "2026-09-03T23:58:48.307440Z",
   "vehicles": {
     "ROG-101": {
       "notes": "Camera Image Quality [Front Center] VSTAB 11374",
@@ -14,8 +14,8 @@
       "status": "Active"
     },
     "ROG-104": {
-      "notes": "YOCTO | front center camera quality VSTAB-10548",
-      "status": "Calibration"
+      "notes": "YOCTO ",
+      "status": "Active"
     },
     "ROG-105": {
       "notes": "Mechanical Issue [VSTAB-976]",
@@ -255,7 +255,7 @@
     },
     "ROG-215": {
       "notes": "Registration expired 6/2/2026 VSTAB-9565",
-      "status": "Out of Service"
+      "status": "Active"
     }
   }
 }
