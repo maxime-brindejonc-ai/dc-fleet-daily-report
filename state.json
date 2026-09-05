@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-09-04T23:58:04.082048Z",
+  "last_run_utc": "2026-09-05T17:15:35.494996Z",
   "vehicles": {
     "ROG-101": {
       "notes": "Camera Image Quality [Front Center] VSTAB 11374",
@@ -14,8 +14,8 @@
       "status": "Active"
     },
     "ROG-104": {
-      "notes": "YOCTO ",
-      "status": "Active"
+      "notes": "YOCTO | Ublox_gps_driver is red | VSTAB-11736",
+      "status": "Out of Service"
     },
     "ROG-105": {
       "notes": "Mechanical Issue [VSTAB-976]",
